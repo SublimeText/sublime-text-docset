@@ -36,7 +36,7 @@
         ],
         "table.kinds tr td:last-child": "Enum",
         "table.enum tr td:first-child span.key": {
-            "type": "Enum",
+            "type": "Value",
             "regexp": "\"",
             "replacement": ""
         },
@@ -49,8 +49,17 @@
         "tt[id^=type-]": "Type",
         ".enum > code": "Variable",
         ".enum > *:not(pre) > code": "Variable",
+        "table.enum td[id^=variable-] > span.setting": "Variable",
         "span.command": "Command",
-        ".enum span.setting": "Setting",
+        "dl.enum > dt span.setting": {
+            "type": "Setting",
+            "regexp": "\"",
+            "replacement": ""
+        },
+        "li span.setting": {
+            "type": "Setting",
+            "matchpath": "docs/file_patterns\\.html"
+        },
         "li > span.file, .enum span.file": {
             "type": "File",
             "requiretext": "^[^.]"
