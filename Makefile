@@ -4,7 +4,7 @@ local_index := $(local_path)/docs/index.html
 built_path := ./sublime-text.docset
 
 .PHONY: all
-all: clean download fix-all build fix-build
+all: clean download fix build fix-build
 
 .PHONY: download
 download:
@@ -25,7 +25,6 @@ download:
 .PHONY: fix
 fix: fix-html fix-css
 	-rm -r $(local_path)/docs/3
-	$(shell for f in $$(ls $(local_path)/*.css\?*); do mv "$$f" "$${f%\?*}"; done )
 
 .PHONY: fix-html
 fix-html:
@@ -35,7 +34,6 @@ fix-html:
 
 .PHONY: fix-css
 fix-css:
-	$(shell for f in $$(ls $(local_path)/*.css\?*); do echo "$$f : $${f%\?*}"; done )
 	$(shell for f in $$(ls $(local_path)/*.css\?*); do mv "$$f" "$${f%\?*}"; done )
 
 build:
