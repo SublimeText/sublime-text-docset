@@ -1,20 +1,39 @@
 # Overview
 
-Dash docset for Sublime Text official documentation.
+[Dash][]/[Zeal][] docset for [Sublime Text][st]&rsquo;s official [documentation][st-docs].
 
-# Requirements
+# Building
 
-* [dashing](https://github.com/technosophos/dashing#readme)
+## Requirements
 
-# Installation
+* [`dashing`][dashing]
+* `sed` with `-E` support
+
+## Steps
 
 1.
     ``` sh
     make
     ```
-2. Open Dash.
-3. <kbd>Cmd</kbd>+<kbd>,</kbd>
-4. Open the "Docsets" tab.
-5. Click the <kbd>+</kbd>.
-6. Choose "Add Local Docset".
-7. Select the Docset in this folder.
+
+# Installation
+
+## Dash locally-built docset
+
+1. Open Dash.
+2. <kbd>Cmd</kbd>+<kbd>,</kbd>
+3. Open the "Docsets" tab.
+4. Click the <kbd>+</kbd>.
+5. Choose "Add Local Docset".
+6. Select the `sublime-text.docset` in this folder.
+7. Optionally change the keyword.
+
+## Zeal locally-built docset
+
+1. Open Zeal.
+
+[dash]: https://kapeli.com/dash
+[zeal]: https://zealdocs.org
+[st]: https://www.sublimetext.com/
+[st-docs]: https://www.sublimetext.com/docs/index.html
+[dashing]: https://github.com/technosophos/dashing#readme
