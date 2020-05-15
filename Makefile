@@ -15,21 +15,12 @@ download:
 		--no-parent \
 		--timestamping \
 		"$(source_link)"
-	# When /docs/ stops 3XXing to /docs/3/index.html, this and several
-	#  lines in 'fix' can be removed
-	-wget \
-		--convert-links \
-		--output-document=$(local_index) \
-		"$(source_link)"
 
 .PHONY: fix
 pre-build: fix-html fix-css
-	-rm -r $(local_path)/docs/3
 
 .PHONY: fix-html
 fix-html:
-	sed -i -e 's/\(href="\)https:\/\/www.sublimetext.com\/docs\//\1/g' $(local_index)
-	sed -i -e 's/\(href="\)https:\/\/www.sublimetext.com\/\(.*\.css\)/\1..\/\2/g' $(local_index)
 	find $(local_path) -iname '*.html' -exec sed -i -e '/<header>/,/<\/header>/d' {} \;
 	python prefix_methods.py
 
