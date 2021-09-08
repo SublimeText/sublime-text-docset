@@ -23,6 +23,7 @@ KEYWORD_MAP = {
     "Class": "class",
     "Value": "type",
     "Tuple": "type",
+    "Dict": "type",
 }
 
 
