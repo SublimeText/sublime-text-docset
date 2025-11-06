@@ -40,7 +40,6 @@ We hope to have a distribution channel [eventually][distribution].
 * `yq`
 * `sed` (with `-E` support)
 * `find`
-* `wget`
 * Python 3.8+
 
 ### Steps

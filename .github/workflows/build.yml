@@ -31,4 +31,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sublime-text.docset
-          path: www.sublimetext.com/sublime-text.docset
+          path: SublimeText_Documentation/www.sublimetext.com/sublime-text.docset

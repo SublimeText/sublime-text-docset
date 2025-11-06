@@ -8,7 +8,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-DOC_ROOT = 'www.sublimetext.com/docs'
+DOC_ROOT = 'SublimeText_Documentation/www.sublimetext.com/docs'
 
 
 def delete_skins(soup):

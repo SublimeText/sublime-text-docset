@@ -1,32 +1,17 @@
-source_link := https://www.sublimetext.com/docs/index.html
-local_path := www.sublimetext.com
+submodule_path := SublimeText_Documentation
+local_path := $(submodule_path)/www.sublimetext.com
 local_index := $(local_path)/docs/index.html
 built_path := $(local_path)/sublime-text.docset
 
 .PHONY: all
-all: clean download pre-build build post-build
-
-.PHONY: download
-download:
-	-wget \
-		--convert-links \
-		--recursive \
-		--page-requisites \
-		--no-parent \
-		--timestamping \
-		"$(source_link)"
+all: clean pre-build build post-build
 
 .PHONY: fix
-pre-build: fix-html fix-css
+pre-build: fix-html
 
 .PHONY: fix-html
 fix-html:
 	python fix_html.py
-
-.PHONY: fix-css
-fix-css:
-	$(shell for f in $$(ls $(local_path)/*.*\?*); do mv "$$f" "$${f%\?*}"; done )
-	$(shell for f in $$(ls $(local_path)/**/*.*\?*); do mv "$$f" "$${f%\?*}"; done )
 
 build:
 	yq -j . dashing.yml > $(local_path)/dashing.json
@@ -40,7 +25,7 @@ post-build:
 
 .PHONY: clean
 clean:
-	-rm -r $(local_path)
+	-git restore $(submodule_path) --recurse-submodules
 
 .PHONY: clean-more
 clean-more: clean
