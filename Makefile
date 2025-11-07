@@ -4,7 +4,7 @@ local_index := $(local_path)/docs/index.html
 built_path := $(local_path)/sublime-text.docset
 
 .PHONY: all
-all: clean download pre-build build post-build
+all: clean download pre-build build
 
 .PHONY: download
 download:
@@ -32,10 +32,6 @@ build:
 	yq -j . dashing.yml > $(local_path)/dashing.json
 	cd $(local_path) \
 	&& dashing build
-
-.PHONY: post-build
-post-build:
-	true
 
 .PHONY: clean
 clean:
