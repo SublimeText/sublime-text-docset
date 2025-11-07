@@ -6,7 +6,7 @@ dashing_json := $(local_path)/dashing.json
 built_path := $(local_path)/$(docset)
 
 .PHONY: all
-all: clean pre-build build post-build
+all: clean pre-build build
 
 .PHONY: fix
 pre-build: fix-html
@@ -19,11 +19,6 @@ build:
 	yq -j . dashing.yml > $(dashing_json)
 	cd $(local_path) \
 	&& dashing build
-
-.PHONY: post-build
-post-build:
-	find $(built_path) -iname '*.html' -exec \
-		sed -i -Ee 's#(<a [^>]+></a><a [^>]+></a>)(<td[^>]*>)#\2\1#g' {} \;
 
 .PHONY: clean
 clean:

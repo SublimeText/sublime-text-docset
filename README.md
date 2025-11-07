@@ -38,8 +38,6 @@ We hope to have a distribution channel [eventually][distribution].
 * `make`
 * [`dashing`][dashing]
 * `yq`
-* `sed` (with `-E` support)
-* `find`
 * Python 3.8+
 
 ### Steps
