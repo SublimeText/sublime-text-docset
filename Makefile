@@ -25,8 +25,9 @@ post-build:
 
 .PHONY: clean
 clean:
-	-git restore $(submodule_path) --recurse-submodules
+	git restore $(submodule_path) --recurse-submodules
 
 .PHONY: clean-more
 clean-more: clean
-	-rm -r $(built_path)
+	rm -r $(built_path)
+	rm $(local_path)/dashing.json
