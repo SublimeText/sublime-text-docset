@@ -26,12 +26,6 @@ selectors:
     type: Section
     matchpath: '\.html$'
 
-  # Settings
-  'dl.setting > dt[id]':
-    attr: id
-    type: Setting
-    matchpath: '(?<!build_systems)\.html$'
-
 ###[ TAB MULTI-SELECT ]########################################################
 ###[ GIT INTEGRATION ]#########################################################
 
@@ -40,8 +34,38 @@ selectors:
     type: Enum
     matchpath: '/git_integration\.html$'
 
+  # Commands and menus
+  'ul li p':
+    type: Command
+    matchpath: '/git_integration\.html$'
+
+  # Settings
+  'dl.setting > dt[id]':
+    attr: id
+    type: Setting
+    matchpath: '/git_integration\.html$'
+
 ###[ INCREMENTAL DIFF ]########################################################
+
+  # Commands and menus
+  '#styling li p':
+    type: Style
+    matchpath: '/incremental_diff\.html$'
+
+  # Settings
+  'dl.setting > dt[id]':
+    attr: id
+    type: Setting
+    matchpath: '/incremental_diff\.html$'
+
 ###[ INDEXING ]################################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    attr: id
+    type: Setting
+    matchpath: '/indexing\.html$'
+
 ###[ COMMAND LINE INTERFACE ]##################################################
 ###[ MULTIPLE SELECTION ]######################################################
 ###[ COMPLETIONS ]#############################################################
@@ -56,6 +80,11 @@ selectors:
     type: Enum
     matchpath: '/completions\.html$'
 
+  # Completion fields
+  '#completion-files dl.setting > dt':
+    type: Field
+    matchpath: '/completions\.html$'
+
   # Snippet fields
   '#snippets dl.setting > dt':
     type: Field
@@ -65,6 +94,12 @@ selectors:
   '#variables table code':
     type: Variable
     requiretext: '\$'
+    matchpath: '/completions\.html$'
+
+  # Settings
+  'dl.setting > dt[id]':
+    attr: id
+    type: Setting
     matchpath: '/completions\.html$'
 
 ###[ DISTRACTION FREE MODE ]###################################################
@@ -81,6 +116,12 @@ selectors:
 
 ###[ VINTAGE MODE ]############################################################
 ###[ PROJECTS ]################################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/projects\.html$'
+
 ###[ SETTINGS ]################################################################
 
   # Files
@@ -98,7 +139,18 @@ selectors:
 
 ###[ FONT SETTINGS ]###########################################################
 ###[ INDENTATION SETTINGS ]####################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/indentation\.html$'
+
 ###[ SPELL CHECKING ]##########################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/spell_checking\.html$'
 
   # Commands
   '#commands code':
@@ -128,10 +180,27 @@ selectors:
 
 ###[ SELECTORS ]###############################################################
 ###[ FILE PATTERNS ]###########################################################
+
+  # "Uses"
+  '#uses li code':
+    type: Setting
+    matchpath: '/file_patterns\.html$'
+
 ###[ GPU RENDERING ]###########################################################
 ###[ OPERATING SYSTEM COMPATIBILITY ]##########################################
 ###[ LINUX PACKAGE MANAGER REPOSITORIES ]######################################
 ###[ SAFE MODE ]###############################################################
+
+  # Safe Mode Data Dir
+  '#behavior > ul li span.file':
+    type: File
+    matchpath: '/safe_mode\.html$'
+
+  # Safe Mode command
+  '#starting pre':
+    type: Command
+    matchpath: '/safe_mode\.html$'
+
 ###[ REVERTING TO A FRESHLY INSTALLED STATE ]##################################
 
   # Files
@@ -163,6 +232,11 @@ selectors:
     type: Function
     matchpath: '/color_schemes\.html$'
 
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/color_schemes\.html$'
+
   # Font Styles
   'dt#font-style dd li code':
     type: Value
@@ -174,6 +248,11 @@ selectors:
     matchpath: '/color_schemes\.html$'
 
 ###[ THEMES ]##################################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/themes\.html$'
 
   # Properties
   'dl.themeprop > dt':
@@ -192,6 +271,11 @@ selectors:
     matchpath: '/themes\.html$'
 
 ###[ MENUS ]###################################################################
+
+  # Settings
+  'dl.setting > dt[id]':
+    type: Setting
+    matchpath: '/menus\.html$'
 
   '.subl .descname':
     requiretext: '.sublime-menu'
