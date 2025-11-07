@@ -35,8 +35,7 @@ build:
 
 .PHONY: post-build
 post-build:
-	find $(built_path) -iname '*.html' -exec \
-		sed -i -Ee 's#(<a [^>]+></a><a [^>]+></a>)(<td[^>]*>)#\2\1#g' {} \;
+	true
 
 .PHONY: clean
 clean:
