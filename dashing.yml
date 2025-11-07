@@ -1,9 +1,9 @@
 name: Sublime Text
 package: sublime-text
-index: www.sublimetext.com/docs/index.html
-icon32x32: favicon.png
+index: docs/index.html
+icon32x32: ../../favicon.png
 allowJS: false
-ExternalURL: ''
+ExternalURL: 'https://www.sublimetext.com'
 ignore:
   - id
   - id0
