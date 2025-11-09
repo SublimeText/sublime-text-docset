@@ -29,8 +29,14 @@ jobs:
       - name: Build the docset
         run: make
 
-      - name: Upload the docset
+      - name: Upload the ST docset
         uses: actions/upload-artifact@v4
         with:
           name: sublime-text.docset
-          path: SublimeText_Documentation/www.sublimetext.com/sublime-text.docset
+          path: sublime-text/www.sublimetext.com/sublime-text.docset
+
+      - name: Upload the SM docset
+        uses: actions/upload-artifact@v4
+        with:
+          name: sublime-merge.docset
+          path: sublime-merge/www.sublimemerge.com/sublime-merge.docset

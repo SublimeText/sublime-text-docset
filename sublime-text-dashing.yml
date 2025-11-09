@@ -1,7 +1,7 @@
 name: Sublime Text
 package: sublime-text
 index: docs/index.html
-icon32x32: ../../favicon.png
+icon32x32: ../../sublime-text-icon.png
 allowJS: false
 ExternalURL: 'https://www.sublimetext.com'
 ignore:

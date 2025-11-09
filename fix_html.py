@@ -8,7 +8,10 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-DOC_ROOT = 'SublimeText_Documentation/www.sublimetext.com/docs'
+DOC_ROOTS = [
+    'sublime-text/www.sublimetext.com/docs',
+    'sublime-merge/www.sublimemerge.com/docs',
+]
 
 
 def delete_skins(soup):
@@ -39,20 +42,21 @@ def remove_link_icon(soup):
 
 def main():
 
-    root_directory = Path(DOC_ROOT)
-    for path in root_directory.rglob('*.html'):
+    for root in DOC_ROOTS:
+        root_directory = Path(root)
+        for path in root_directory.rglob('*.html'):
 
-        with path.open(encoding='utf-8') as file:
-            html = file.read()
+            with path.open(encoding='utf-8') as file:
+                html = file.read()
 
-        soup = BeautifulSoup(html, 'lxml')
+            soup = BeautifulSoup(html, 'lxml')
 
-        delete_skins(soup)
-        remove_link_icon(soup)
+            delete_skins(soup)
+            remove_link_icon(soup)
 
-        with path.open('w', encoding='utf-8') as file:
-            # Can't prettify as that would introduce whitespace around inline tags
-            file.write(str(soup))
+            with path.open('w', encoding='utf-8') as file:
+                # Can't prettify as that would introduce whitespace around inline tags
+                file.write(str(soup))
 
 
 if __name__ == '__main__':

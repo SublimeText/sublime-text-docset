@@ -1,0 +1,35 @@
+name: Sublime Merge
+package: sublime-merge
+index: docs/index.html
+icon32x32: ../../sublime-merge-icon.png
+allowJS: false
+ExternalURL: 'https://www.sublimemerge.com'
+ignore:
+  - id
+  - id0
+  - id1
+  - id2
+
+# https://github.com/technosophos/dashing?tab=readme-ov-file#usage
+# https://kapeli.com/docsets#supportedentrytypes
+selectors:
+
+###[ GLOBAL ]##################################################################
+
+  # Each pages' header
+  title:
+    type: Guide
+    matchpath: '\.html$'
+
+  # Page subheadings
+  h2:
+    type: Section
+    matchpath: '\.html$'
+
+###[ KEY BINDINGS ]############################################################
+
+  # Context modifiers
+  '#context-key table code':
+    type: Filter
+    requiretext: '"'
+    matchpath: '/key_bindings\.html$'
