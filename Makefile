@@ -1,5 +1,6 @@
 # Shared
 out_folder := out
+install_path_linux := ~/.local/share/Zeal/Zeal/docsets
 
 # Sublime Text
 st_submodule := sublime-text
@@ -43,3 +44,6 @@ clean:
 	[ -f "$(st_site)/dashing.json" ] && rm $(st_site)/dashing.json || true
 	[ -f "$(sm_site)/dashing.json" ] && rm $(sm_site)/dashing.json || true
 	git restore --recurse-submodules $(st_submodule) $(sm_submodule)
+
+install-linux:
+	cp -r $(out_folder)/* $(install_path_linux)

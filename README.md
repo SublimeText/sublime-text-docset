@@ -28,6 +28,8 @@ We hope to have a distribution channel [eventually][distribution].
 
 ###  Install a local folder to Zeal
 
+If you have default Linux folders, `make install-linux`. Otherwise:
+
 1. Find your docset folder ("Docset storage" in your Preferences)
 1. Copy or symlink `out/sublime-text.docset` to that folder.
 1. Repeat for `out/sublime-merge.docset`
