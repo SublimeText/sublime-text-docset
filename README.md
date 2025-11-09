@@ -22,15 +22,15 @@ We hope to have a distribution channel [eventually][distribution].
 1. Open the "Docsets" tab.
 1. Click the <kbd>+</kbd>.
 1. Choose "Add Local Docset".
-1. Select the `sublime-text.docset` in the
-   `sublime-text/www.sublimetext.com` folder.
+1. Select the `sublime-text.docset` in the `out` folder.
 1. Optionally change the keyword.
-1. Repeat for `sublime-merge/www.sublimemerge.com`
+1. Repeat for `out/sublime-merge.docset`
 
 ###  Install a local folder to Zeal
 
 1. Find your docset folder ("Docset storage" in your Preferences)
-1. Copy or symlink `sublime-text.docset` to that folder.
+1. Copy or symlink `out/sublime-text.docset` to that folder.
+1. Repeat for `out/sublime-merge.docset`
 
 
 ## Building

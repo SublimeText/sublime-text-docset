@@ -1,3 +1,6 @@
+# Shared
+out_folder := out
+
 # Sublime Text
 st_submodule := sublime-text
 st_site := $(st_submodule)/www.sublimetext.com
@@ -23,17 +26,20 @@ fix-html:
 	python fix_html.py
 
 build:
+	# Shared
+	mkdir -p $(out_folder)
+	# Sublime Text
 	yq -j . sublime-text-dashing.yml > $(st_site)/dashing.json
-	cd $(st_site) \
-	&& ~/go/bin/dashing build
+	cd $(st_site) && dashing build
+	mv $(st_built_path) $(out_folder)
+	# Sublime Merge
 	yq -j . sublime-merge-dashing.yml > $(sm_site)/dashing.json
-	cd $(sm_site) \
-	&& ~/go/bin/dashing build
+	cd $(sm_site) && dashing build
+	mv $(sm_built_path) $(out_folder)
 
 .PHONY: clean
 clean:
-	[ -d "$(st_built_path)" ] && rm -r $(st_built_path) || true
+	[ -d "$(out_folder)" ] && rm -r $(out_folder) || true
 	[ -f "$(st_site)/dashing.json" ] && rm $(st_site)/dashing.json || true
-	[ -d "$(sm_built_path)" ] && rm -r $(sm_built_path) || true
 	[ -f "$(sm_site)/dashing.json" ] && rm $(sm_site)/dashing.json || true
 	git restore --recurse-submodules $(st_submodule) $(sm_submodule)
