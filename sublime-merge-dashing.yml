@@ -26,10 +26,84 @@ selectors:
     type: Section
     matchpath: '\.html$'
 
+###[ FAQ ]#####################################################################
+###[ GETTING STARTED ]#########################################################
+###[ DIFF CONTEXT ]############################################################
 ###[ KEY BINDINGS ]############################################################
 
-  # Context modifiers
-  '#context-key table code':
-    type: Filter
-    requiretext: '"'
+  # Binding settings
+  'section:has(#bindings) h3[id]':
+    type: Setting
     matchpath: '/key_bindings\.html$'
+
+  # "context" modifiers
+  'dt':
+    type: Filter
+    matchpath: '/key_bindings\.html$'
+
+###[ COMMAND PALETTE ]#########################################################
+###[ CUSTOM COMMANDS ]#########################################################
+###[ COMMAND LINE ]############################################################
+###[ THEMES ]##################################################################
+
+  # Attributes
+  'dl.attribute > dt':
+    type: Attribute
+    matchpath: '/themes\.html$'
+
+  # Settings
+  'dl.settings > dt':
+    type: Setting
+    matchpath: '/themes\.html$'
+
+  # Properties
+  'dl.properties > dt':
+    type: Property
+    matchpath: '/themes\.html$'
+
+  # Theme elements
+  'dl.elements > dt':
+    type: Element
+    matchpath: '/themes\.html$'
+
+  # Element properties
+  # TODO: Maybe split these into attributes and properties
+  'dl.elements > dd > dl dt code':
+    type: Property
+    matchpath: '/themes\.html$'
+
+###[ MENUS ]###################################################################
+
+  # Settings
+  '.primary section:has(#entries) dt':
+    type: Setting
+    matchpath: '/menus\.html$'
+
+  # Variables
+  '.primary section:has(#available_menus) dl.enum > dt':
+    requiretext: '\$'
+    type: Variable
+    matchpath: '/menus\.html$'
+
+  # Menus
+  # (Extra trailing space to avoid JSON dict key overload)
+  '.primary section:has(#available_menus) dl.enum > dt ':
+    requiretext: '.sublime-menu'
+    type: File
+    matchpath: '/menus\.html$'
+
+###[ PACKAGES ]################################################################
+
+  # Files
+  'dl dd':
+    type: File
+    matchpath: '/packages\.html$'
+
+###[ MINIHTML REFERENCE ]######################################################
+
+  # Variables
+  'li code:first-child':
+    requiretext: 'var'
+    type: Variable
+    matchpath: '/minihtml\.html$'
+

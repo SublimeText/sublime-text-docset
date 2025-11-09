@@ -131,7 +131,12 @@ selectors:
 
 ###[ KEY BINDINGS ]############################################################
 
-  # Context modifiers
+  # Bindings keys
+  '#bindings h3':
+    type: Setting
+    matchpath: '/key_bindings\.html$'
+
+  # "context" modifiers
   '#context-key table code':
     type: Filter
     requiretext: '"'
