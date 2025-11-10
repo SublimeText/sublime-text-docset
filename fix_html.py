@@ -5,6 +5,7 @@ Strip portions of the HTML pages that we don't need
 """
 import sys
 from pathlib import Path
+from re import sub
 
 from bs4 import BeautifulSoup
 
@@ -40,6 +41,17 @@ def remove_link_icon(soup):
         a.decompose()
 
 
+def trim_title(soup):
+    """Remove suffix from <title> element"""
+    for title in soup.find_all('title'):
+        print(f'Checking {title}')
+        regex = r'\s*[\W\S]\s*Sublime\s+(Merge|Text)(\s+Documentation)?$'
+        trimmed = sub(regex, '', title.string)
+        if trimmed != title.string:
+            print(f'  Changing to {trimmed}')
+            title.string.replace_with(trimmed)
+
+
 def main():
 
     for root in DOC_ROOTS:
@@ -53,6 +65,7 @@ def main():
 
             delete_skins(soup)
             remove_link_icon(soup)
+            trim_title(soup)
 
             with path.open('w', encoding='utf-8') as file:
                 # Can't prettify as that would introduce whitespace around inline tags
