@@ -8,10 +8,9 @@
 
 Download from GitHub Releases or build yourself with the instructions below.
 
-- If you have a `sublime-text.docset.zip` from GitHub, extract it to a
-folder called `sublime-text.docset`.
+- If you have a `sublime-text.docset.tgz` from GitHub, extract it somewhere.
 - If you build yourself, `sublime-text.docset` will be in the
-`sublime-text/www.sublimetext.com` folder.
+`out` folder.
 
 We hope to have a distribution channel [eventually][distribution].
 
@@ -24,7 +23,10 @@ We hope to have a distribution channel [eventually][distribution].
 1. Choose "Add Local Docset".
 1. Select the `sublime-text.docset` in the `out` folder.
 1. Optionally change the keyword.
-1. Repeat for `out/sublime-merge.docset`
+1. Repeat for `out/sublime-merge.docset`.
+
+It may be possible to just double-click `sublime-text.docset`,
+but that hasn't been tested.
 
 ###  Install a local folder to Zeal
 

@@ -27,16 +27,18 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build the docset
-        run: make
+        run: |
+          make
+          make zip
 
       - name: Upload the ST docset
         uses: actions/upload-artifact@v4
         with:
-          name: sublime-text.docset
-          path: out/sublime-text.docset
+          name: sublime-text.docset.tgz
+          path: out/sublime-text.docset.tgz
 
       - name: Upload the SM docset
         uses: actions/upload-artifact@v4
         with:
-          name: sublime-merge.docset
-          path: out/sublime-merge.docset
+          name: sublime-merge.docset.tgz
+          path: out/sublime-merge.docset.tgz

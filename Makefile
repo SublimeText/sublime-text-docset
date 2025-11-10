@@ -45,5 +45,9 @@ clean:
 	[ -f "$(sm_site)/dashing.json" ] && rm $(sm_site)/dashing.json || true
 	git restore --recurse-submodules $(st_submodule) $(sm_submodule)
 
+zip:
+	cd $(out_folder) && tar -czvf $(st_docset).tgz $(st_docset)
+	cd $(out_folder) && tar -czvf $(sm_docset).tgz $(sm_docset)
+
 install-linux:
 	cp -r $(out_folder)/* $(install_path_linux)
