@@ -2,6 +2,7 @@ import unittest
 import sqlite3
 
 from abc import ABC
+from collections import defaultdict
 
 
 class DocsetTestCaseBase(ABC, unittest.TestCase):
@@ -59,6 +60,39 @@ class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
 
 class SublimeTextDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-text.docset'
+
+    def test_api_reference(self):
+        contains = [
+            ('Guide', 'API Reference'),
+            ('Module', 'sublime'),
+            ('Module', 'sublime_plugin'),
+            ('Class', 'sublime.Window'),
+            ('Type', 'sublime.Kind'),
+            ('Type', 'sublime.Event'),
+            ('Class', 'sublime_plugin.EventListener'),
+            ('Method', 'sublime_plugin.ViewEventListener.on_activated'),
+            ('Function', 'sublime.cache_path'),
+            ('Attribute', 'sublime.KindId.COLOR_YELLOWISH'),
+            ('Attribute', 'sublime.RegionFlags.DRAW_EMPTY_AS_OVERWRITE'),
+        ]
+        sql = '''
+            SELECT  type, name
+            FROM    searchIndex
+            WHERE   path LIKE 'docs/api_reference.html#%'
+        '''
+        res = self.cur.execute(sql)
+        items = res.fetchall()
+
+        lookup = defaultdict(list)
+        for check in contains:
+            lookup[check[1]].append(check[0])
+
+        for pair in contains:
+            self.assertIn(pair, items)
+
+            ds_type, ds_term = pair
+            lookup_result = lookup[ds_term][:]
+            self.assertFalse(lookup_result.remove(ds_type))
 
 
 # Don't test the base class directly
