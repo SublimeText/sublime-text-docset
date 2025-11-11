@@ -17,7 +17,7 @@ sm_docset := sublime-merge.docset
 sm_built_path := $(sm_site)/$(sm_docset)
 
 .PHONY: all
-all: clean pre-build build post-build
+all: clean pre-build build post-build test
 
 pre-build:
 	python fix_html.py

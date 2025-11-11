@@ -29,7 +29,6 @@ jobs:
       - name: Build the docset
         run: |
           make
-          make test
           make zip
 
       - name: Upload the ST docset
