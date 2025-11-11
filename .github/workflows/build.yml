@@ -42,3 +42,25 @@ jobs:
         with:
           name: sublime-merge.docset.tgz
           path: out/sublime-merge.docset.tgz
+
+
+  rolling-release:
+    if: ${{ github.ref_name == 'master' && github.repository == 'SublimeText/sublime-text-docset' }}
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download the docsets
+        uses: actions/download-artifact@v5
+
+      - name: Update rolling prerelease
+        uses: ncipollo/release-action@v1.15.0
+        with:
+          name: Rolling release draft
+          draft: true
+          allowUpdates: true
+          tag: draft-release
+          body: |-
+            Extract the archive to a `sublime-text.docset` folder and install
+            it with the instructions in the repo's ReadMe.
+          artifacts: sublime-*.docset.tgz
