@@ -1,20 +1,23 @@
 # [Sublime Text Docset][self]
 
 [Dash][] and [Zeal][] docset for [Sublime Text][st]’s official
-[documentation][st-docs]. There is also a small docset for Sublime Merge.
+[documentation][st-docs]. There is also a small docset for [Sublime Merge][sm].
 
 
 ## Installation
 
 Download from GitHub Releases or build yourself with the instructions below.
 
-- If you have a `sublime-text.docset.tgz` from GitHub, extract it somewhere.
+- If you have a `docset-bundle.zip` from GitHub, extract it somewhere.
 - If you build yourself, `sublime-text.docset` will be in the
 `out` folder.
 
 We hope to have a distribution channel [eventually][distribution].
 
 ### Install a local folder to Dash
+
+It may be possible to just double-click `sublime-text.docset`,
+but that hasn't been tested. If that doesn't work:
 
 1. Open Dash.
 1. <kbd>Cmd</kbd>+<kbd>,</kbd>
@@ -24,9 +27,6 @@ We hope to have a distribution channel [eventually][distribution].
 1. Select the `sublime-text.docset` in the `out` folder.
 1. Optionally change the keyword.
 1. Repeat for `out/sublime-merge.docset`.
-
-It may be possible to just double-click `sublime-text.docset`,
-but that hasn't been tested.
 
 ###  Install a local folder to Zeal
 
@@ -65,5 +65,6 @@ If you have default Linux folders, `make install-linux`. Otherwise:
 [Zeal]: https://zealdocs.org
 [st]: https://www.sublimetext.com/
 [st-docs]: https://www.sublimetext.com/docs/index.html
+[sm]: https://www.sublimemerge.com/
 [dashing]: https://github.com/technosophos/dashing#readme
 [distribution]: https://github.com/SublimeText/sublime-text-docset/issues/12

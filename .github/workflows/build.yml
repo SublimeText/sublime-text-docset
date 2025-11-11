@@ -29,16 +29,9 @@ jobs:
       - name: Build the docset
         run: |
           make
-          make zip
 
-      - name: Upload the ST docset
+      - name: Upload the docsets
         uses: actions/upload-artifact@v4
         with:
-          name: sublime-text.docset.tgz
-          path: out/sublime-text.docset.tgz
-
-      - name: Upload the SM docset
-        uses: actions/upload-artifact@v4
-        with:
-          name: sublime-merge.docset.tgz
-          path: out/sublime-merge.docset.tgz
+          name: docset-bundle
+          path: out/sublime-*.docset
