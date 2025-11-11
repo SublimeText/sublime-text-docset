@@ -53,6 +53,33 @@ class DocsetTestCaseBase(ABC, unittest.TestCase):
         res = self.cur.execute(sql)
         self.assertFalse(res.fetchall())
 
+    def _test_a_doc_page_index(
+        self, path: str,
+        contains_strict: list[tuple[str,str]],
+        contains_lenient: list[tuple[str,str]] | None = None,
+    ):
+        sql = f'''
+            SELECT  type, name
+            FROM    searchIndex
+            WHERE   path LIKE '{path}#%'
+        '''
+        res = self.cur.execute(sql)
+        items = res.fetchall()
+
+        for pair in contains_lenient or []:
+            self.assertIn(pair, items)
+
+        lookup = defaultdict(list)
+        for check in contains_strict:
+            lookup[check[1]].append(check[0])
+
+        for pair in contains_strict:
+            self.assertIn(pair, items)
+
+            ds_type, ds_term = pair
+            lookup_result = lookup[ds_term][:]
+            self.assertFalse(lookup_result.remove(ds_type))
+
 
 class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-merge.docset'
@@ -75,24 +102,7 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Attribute', 'sublime.KindId.COLOR_YELLOWISH'),
             ('Attribute', 'sublime.RegionFlags.DRAW_EMPTY_AS_OVERWRITE'),
         ]
-        sql = '''
-            SELECT  type, name
-            FROM    searchIndex
-            WHERE   path LIKE 'docs/api_reference.html#%'
-        '''
-        res = self.cur.execute(sql)
-        items = res.fetchall()
-
-        lookup = defaultdict(list)
-        for check in contains:
-            lookup[check[1]].append(check[0])
-
-        for pair in contains:
-            self.assertIn(pair, items)
-
-            ds_type, ds_term = pair
-            lookup_result = lookup[ds_term][:]
-            self.assertFalse(lookup_result.remove(ds_type))
+        self._test_a_doc_page_index('docs/api_reference.html', contains)
 
 
 # Don't test the base class directly
