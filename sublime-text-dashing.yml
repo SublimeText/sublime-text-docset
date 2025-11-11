@@ -47,13 +47,13 @@ selectors:
 
 ###[ INCREMENTAL DIFF ]########################################################
 
-  # Commands and menus
+  # Scopes as Tags
   '#styling li p':
-    type: Style
+    type: Tag
     matchpath: '/incremental_diff\.html$'
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id] ':
     attr: id
     type: Setting
     matchpath: '/incremental_diff\.html$'
@@ -61,7 +61,7 @@ selectors:
 ###[ INDEXING ]################################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]  ':
     attr: id
     type: Setting
     matchpath: '/indexing\.html$'
@@ -72,12 +72,12 @@ selectors:
 
   # Completion kinds
   '#kind-info table.kinds td:not(:has(span))':
-    type: Enum
+    type: Value
     matchpath: '/completions\.html$'
 
   # Completion kinds again
-  'dl.setting ul.simple:first-child > li':
-    type: Enum
+  '#rich-format dl.setting:has(#kind) ul.simple > li':
+    type: Value
     matchpath: '/completions\.html$'
 
   # Completion fields
@@ -91,13 +91,13 @@ selectors:
     matchpath: '/completions\.html$'
 
   # Variables
-  '#variables table code':
+  '#variables table span.pre':
     type: Variable
     requiretext: '\$'
     matchpath: '/completions\.html$'
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]    ':
     attr: id
     type: Setting
     matchpath: '/completions\.html$'
@@ -118,7 +118,8 @@ selectors:
 ###[ PROJECTS ]################################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]     ':
+    attr: id
     type: Setting
     matchpath: '/projects\.html$'
 
@@ -146,26 +147,28 @@ selectors:
 ###[ INDENTATION SETTINGS ]####################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]      ':
+    attr: id
     type: Setting
     matchpath: '/indentation\.html$'
 
 ###[ SPELL CHECKING ]##########################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]       ':
+    attr: id
     type: Setting
     matchpath: '/spell_checking\.html$'
 
   # Commands
-  '#commands code':
+  '#commands code:first-child':
     type: Command
     matchpath: '/spell_checking\.html$'
 
 ###[ BUILD SYSTEMS ]###########################################################
 
   # Options
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]        ':
     attr: id
     type: Option
     matchpath: '/build_systems\.html$'
@@ -179,7 +182,7 @@ selectors:
 ###[ PACKAGES ]################################################################
 
   # Files
-  'li span.file':
+  'li span.file ':
     type: File
     matchpath: '/packages\.html$'
 
@@ -238,7 +241,7 @@ selectors:
     matchpath: '/color_schemes\.html$'
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]         ':
     type: Setting
     matchpath: '/color_schemes\.html$'
 
@@ -255,7 +258,7 @@ selectors:
 ###[ THEMES ]##################################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]          ':
     type: Setting
     matchpath: '/themes\.html$'
 
@@ -278,7 +281,7 @@ selectors:
 ###[ MENUS ]###################################################################
 
   # Settings
-  'dl.setting > dt[id]':
+  'dl.setting > dt[id]           ':
     type: Setting
     matchpath: '/menus\.html$'
 
@@ -346,9 +349,9 @@ selectors:
 
 ###[ SCOPE NAMING ]############################################################
 
-  # Scope names as Values
+  # Scope names as Tags
   'ul.simple li code':
-    type: Value
+    type: Tag
     matchpath: '/scope_naming\.html$'
 
 ###[ MINIHTML REFERENCE ]######################################################
