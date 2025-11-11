@@ -17,13 +17,9 @@ sm_docset := sublime-merge.docset
 sm_built_path := $(sm_site)/$(sm_docset)
 
 .PHONY: all
-all: clean pre-build build
+all: clean pre-build build post-build
 
-.PHONY: fix
-pre-build: fix-html
-
-.PHONY: fix-html
-fix-html:
+pre-build:
 	python fix_html.py
 
 build:
@@ -37,6 +33,9 @@ build:
 	yq -j . sublime-merge-dashing.yml > $(sm_site)/dashing.json
 	cd $(sm_site) && dashing build
 	mv $(sm_built_path) $(out_folder)
+
+post-build:
+	python fix_index.py
 
 .PHONY: clean
 clean:
