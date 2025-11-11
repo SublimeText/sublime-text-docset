@@ -42,6 +42,16 @@ class DocsetTestCaseBase(ABC, unittest.TestCase):
         """The docset index must not contain broken paths"""
         pass
 
+    def test_paths_are_autolinks(self):
+        """Sanity check dashing format"""
+        sql = '''
+            SELECT  *
+            FROM    searchIndex
+            WHERE   path NOT LIKE 'docs/%.html#autolink-%'
+        '''
+        res = self.cur.execute(sql)
+        self.assertFalse(res.fetchall())
+
 
 class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-merge.docset'
