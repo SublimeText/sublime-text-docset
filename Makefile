@@ -49,5 +49,9 @@ zip:
 	cd $(out_folder) && tar -czvf $(st_docset).tgz $(st_docset)
 	cd $(out_folder) && tar -czvf $(sm_docset).tgz $(sm_docset)
 
+.PHONY: test
+test:
+	cd test && python -m unittest
+
 install-linux:
 	cp -r $(out_folder)/* $(install_path_linux)
