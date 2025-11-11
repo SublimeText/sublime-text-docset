@@ -18,6 +18,9 @@ DOCSET_FIXES = {
         ('docs/syntax.html',
          '<comment_token> SYNTAX\nTEST "<syntax_file>"',
          '<comment_token> SYNTAX TEST "<syntax_file>"', ),
+        ('docs/safe_mode.html',
+         'subl--safe-mode',
+         'subl --safe-mode', ),
     ],
     'sublime-merge.docset': []
 }

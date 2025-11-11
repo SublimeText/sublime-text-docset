@@ -281,6 +281,70 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
         ]
         self._test_a_doc_page_index('docs/file_patterns.html', contains)
 
+    def test_safe_mode(self):
+        contains = [
+            ('Guide', 'Safe Mode'),
+            ('Section', 'Behavior'),
+            ('File', '~/.config/sublime-text-safe-mode/'),
+            ('Command', 'subl --safe-mode'),
+        ]
+        self._test_a_doc_page_index('docs/safe_mode.html', contains)
+
+    def test_reverting_install(self):
+        contains = [
+            ('Guide', 'Reverting to a Freshly Installed State'),
+            ('Section', 'Cache'),
+            ('File', '~/Library/Application Support/Sublime Text'),
+            ('File', '~/.cache/sublime-text'),
+        ]
+        self._test_a_doc_page_index('docs/revert.html', contains)
+
+    def test_ligatures(self):
+        contains = [
+            ('Guide', 'Ligatures'),
+            ('Section', 'Troubleshooting'),
+            ('Option', '"no_clig"'),
+        ]
+        self._test_a_doc_page_index('docs/ligatures.html', contains)
+
+    def test_portable_license(self):
+        contains = [
+            ('Guide', 'Portable License Keys'),
+            ('Section', 'Steps'),
+            ('File', '~/Library/Application Support/Sublime Text/Local'),
+        ]
+        self._test_a_doc_page_index('docs/portable_license_keys.html', contains)
+
+    def test_color_schemes(self):
+        contains = [
+            ('Guide', 'Color Schemes'),
+            ('Section', 'Scope Rules'),
+            ('Setting', 'minimap_border'),
+            ('Function', 'blenda() adjuster'),
+            ('Value', 'aliceblue'),
+        ]
+        self._test_a_doc_page_index('docs/color_schemes.html', contains)
+
+    def test_themes(self):
+        contains = [
+            ('Guide', 'Themes'),
+            ('Section', 'Inheritance'),
+            ('Property', 'indent_top_level'),
+            ('Property', 'fg'),
+            ('Element', 'disclosure_button_control'),
+            ('Setting', 'overlay_scroll_bars'),
+        ]
+        self._test_a_doc_page_index('docs/themes.html', contains)
+
+    def test_menus(self):
+        contains = [
+            ('Guide', 'Menus'),
+            ('Section', 'Entries'),
+            ('File', 'Side Bar Mount Point.sublime-menu'),
+            ('Setting', 'mnemonic'),
+        ]
+        self._test_a_doc_page_index('docs/menus.html', contains)
+
     def test_api_reference(self):
         contains = [
             ('Guide', 'API Reference'),
@@ -296,6 +360,62 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Attribute', 'sublime.RegionFlags.DRAW_EMPTY_AS_OVERWRITE'),
         ]
         self._test_a_doc_page_index('docs/api_reference.html', contains)
+
+    def test_syntax_definitions(self):
+        contains = [
+            ('Guide', 'Syntax Definitions'),
+            ('Section', 'Including Other Files'),
+            ('Trait', 'first_line_match'),
+            ('Instruction', 'pop'),
+            ('Instruction', 'meta_content_scope'),
+            ('Test', '^'),
+            ('Test', '<-'),
+            ('Test', 'local-definition'),
+        ]
+        not_contains = [
+            ('Trait', '.'),
+            ('Trait', '0'),
+            ('Trait', '1'),
+            ('Trait', '2'),
+            ('Instruction', '.'),
+            ('Instruction', '0'),
+            ('Instruction', '1'),
+            ('Instruction', '2'),
+            ('Instruction', '#'),
+            ('Instruction', ':'),
+            ('Instruction', '['),
+            ('Instruction', '{'),
+            ('Instruction', 'true'),
+        ]
+        self._test_a_doc_page_index('docs/syntax.html', contains,
+                                    not_contains=not_contains)
+
+    def test_scope_naming(self):
+        contains = [
+            ('Guide', 'Scope Naming'),
+            ('Section', 'Syntax Definitions'),
+            ('Tag', 'constant.numeric.integer.hexadecimal'),
+        ]
+        self._test_a_doc_page_index('docs/scope_naming.html', contains)
+
+    def test_minihtml(self):
+        contains = [
+            ('Guide', 'minihtml Reference'),
+            ('Section', 'CSS'),
+            ('Element', '<p>'),
+            ('Element', '<h3>'),
+            ('Element', '<ul>'),
+            ('Attribute', 'href'),
+            ('Variable', 'var(--greenish)'),
+            ('Style', 'padding-top'),
+            ('Function', 'lightness()'),
+            ('Function', 'l()'),
+        ]
+        not_contains = [
+            ('Element', 'file://'),
+        ]
+        self._test_a_doc_page_index('docs/minihtml.html', contains,
+                                    not_contains=not_contains)
 
 
 # Don't test the base class directly

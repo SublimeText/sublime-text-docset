@@ -212,7 +212,7 @@ selectors:
 ###[ REVERTING TO A FRESHLY INSTALLED STATE ]##################################
 
   # Files
-  '#reverting-to-a-freshly-installed-state > ul li span.file':
+  'li span.file  ':
     type: File
     matchpath: '/revert\.html$'
 
@@ -230,8 +230,7 @@ selectors:
   # Files
   'li span.file':
     type: File
-    requiretext: 'license'
-    matchpath: '/packages\.html$'
+    matchpath: '/portable_license_keys\.html$'
 
 ###[ COLOR SCHEMES ]###########################################################
 
@@ -242,6 +241,7 @@ selectors:
 
   # Settings
   'dl.setting > dt[id]         ':
+    attr: id
     type: Setting
     matchpath: '/color_schemes\.html$'
 
@@ -251,7 +251,7 @@ selectors:
     matchpath: '/color_schemes\.html$'
 
   # CSS Colors
-  '#appendix-css-colors li span:not(.color-block)':
+  '#appendix-css-colors span:not(.color-block)':
     type: Value
     matchpath: '/color_schemes\.html$'
 
@@ -259,6 +259,7 @@ selectors:
 
   # Settings
   'dl.setting > dt[id]          ':
+    attr: id
     type: Setting
     matchpath: '/themes\.html$'
 
@@ -282,6 +283,7 @@ selectors:
 
   # Settings
   'dl.setting > dt[id]           ':
+    attr: id
     type: Setting
     matchpath: '/menus\.html$'
 
@@ -337,8 +339,13 @@ selectors:
 
 ###[ SYNTAX DEFINITIONS ]######################################################
 
-  # Syntax
-  'dl.setting span.pre':
+  # Syntax header
+  '#header dl.setting > dt > span.sig-name':
+    type: Trait
+    matchpath: '/syntax\.html$'
+
+  # Syntax body
+  '#contexts dl.setting > dt > span.sig-name':
     type: Instruction
     matchpath: '/syntax\.html$'
 
@@ -357,14 +364,29 @@ selectors:
 ###[ MINIHTML REFERENCE ]######################################################
 
   # Elements
-  '#tags li > code':
+  '#tags li code':
     type: Element
     requiretext: '<.+>'
     matchpath: '/minihtml\.html$'
 
+  # Attributes
+  '#attributes li code':
+    type: Attribute
+    matchpath: '/minihtml\.html$'
+
   # CSS styles
-  '#css li code:first-child':
+  '#css > ul li code:first-child':
     type: Style
+    matchpath: '/minihtml\.html$'
+
+  # Color functions
+  '#color-mod-function-proprietary > ul li code':
+    type: Function
+    matchpath: '/minihtml\.html$'
+
+  # Variables
+  '#predefined-variables > ul li code':
+    type: Variable
     matchpath: '/minihtml\.html$'
 
 ###[ PLUGIN PORTING GUIDE ]####################################################
