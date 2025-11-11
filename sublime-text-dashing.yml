@@ -31,7 +31,7 @@ selectors:
 
   # Git Status badges
   '#status-badge-key .badges li':
-    type: Enum
+    type: Attribute
     matchpath: '/git_integration\.html$'
 
   # Commands and menus

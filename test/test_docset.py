@@ -88,6 +88,16 @@ class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
 class SublimeTextDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-text.docset'
 
+    def test_git_integration(self):
+        contains = [
+            ('Guide', 'Git Integration'),
+            ('Attribute', 'Staged Modification'),
+            ('Section', 'Diff Markers'),
+            ('Command', 'Open Git Repository…'),
+            ('Command', 'Sublime Merge: Folder History'),
+        ]
+        self._test_a_doc_page_index('docs/git_integration.html', contains)
+
     def test_api_reference(self):
         contains = [
             ('Guide', 'API Reference'),
