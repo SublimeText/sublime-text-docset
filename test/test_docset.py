@@ -84,6 +84,64 @@ class DocsetTestCaseBase(ABC, unittest.TestCase):
 class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-merge.docset'
 
+    def test_home(self):
+        contains = [
+            ('Guide', 'Documentation'),
+            ('Section', 'General'),
+            ('Section', 'Features'),
+            ('Section', 'Customization'),
+            ('Section', 'Miscellaneous'),
+            ('Section', 'Package Development'),
+        ]
+        self._test_a_doc_page_index('docs/index.html', contains)
+
+    def test_key_bindings(self):
+        contains = [
+            ('Guide', 'Key Bindings'),
+            ('Setting', '"keys" Key'),
+            ('Section', 'Bindings'),
+            ('Filter', '"search_mode"'),
+        ]
+        self._test_a_doc_page_index('docs/key_bindings.html', contains)
+
+    def test_themes(self):
+        contains = [
+            ('Guide', 'Themes'),
+            ('Property', 'layer#.opacity'),
+            ('Section', 'Settings'),
+            ('Setting', 'overlay_scroll_bars'),
+            ('Element', 'root_tabs'),
+            ('Property', 'puck_color'),
+        ]
+        self._test_a_doc_page_index('docs/themes.html', contains)
+
+    def test_menus(self):
+        contains = [
+            ('Guide', 'Menus'),
+            ('Section', 'Entries'),
+            ('File', 'Action.sublime-menu'),
+            ('Setting', '"mnemonic"'),
+            ('Variable', '$git_dir'),
+        ]
+        self._test_a_doc_page_index('docs/menus.html', contains)
+
+    def test_packages(self):
+        contains = [
+            ('Guide', 'Packages'),
+            ('Section', 'Package Directories'),
+            ('File', '%APPDATA%\\Sublime Merge\\Installed Packages\\'),
+            ('File', '~/Library/Application Support/Sublime Merge/Installed Packages/'),
+        ]
+        self._test_a_doc_page_index('docs/packages.html', contains)
+
+    def test_minihtml(self):
+        contains = [
+            ('Guide', 'minihtml Reference'),
+            ('Section', 'CSS'),
+            ('Variable', 'var(--greenish)'),
+        ]
+        self._test_a_doc_page_index('docs/minihtml.html', contains)
+
 
 class SublimeTextDocsetTestCase(DocsetTestCaseBase):
     NAME = 'sublime-text.docset'
