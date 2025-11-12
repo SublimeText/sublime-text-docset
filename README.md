@@ -60,6 +60,13 @@ If you have default Linux folders, `make install-linux`. Otherwise:
    ```
 
 
+## Credits
+
+- @malexer made the first version of this docset.
+- @maliayas made the ST and SM docs scanners used here as submodules.
+- Most recent development is @michaelblyons and @FichteFoll.
+
+
 [self]: https://github.com/SublimeText/sublime-text-docset
 [Dash]: https://kapeli.com/dash
 [Zeal]: https://zealdocs.org
