@@ -43,8 +43,7 @@ If you have default Linux folders, `make install-linux`. Otherwise:
 
 * `make`
 * [`dashing`][dashing]
-* `yq`
-* Python 3.8+
+* Python 3.11+
 
 ### Steps
 

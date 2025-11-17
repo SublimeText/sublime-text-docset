@@ -25,12 +25,11 @@ pre-build:
 build:
 	# Shared
 	mkdir -p $(out_folder)
+	python generate_dashing.py
 	# Sublime Text
-	yq -j . sublime-text-dashing.yml > $(st_site)/dashing.json
 	cd $(st_site) && dashing build
 	mv $(st_built_path) $(out_folder)
 	# Sublime Merge
-	yq -j . sublime-merge-dashing.yml > $(sm_site)/dashing.json
 	cd $(sm_site) && dashing build
 	mv $(sm_built_path) $(out_folder)
 

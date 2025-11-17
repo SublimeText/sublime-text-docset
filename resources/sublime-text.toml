@@ -1,0 +1,348 @@
+# TOML to be slightly mangled into dashing.json
+# https://github.com/technosophos/dashing#usage
+
+name = 'Sublime Text'
+package = 'sublime-text'
+index = 'docs/index.html'
+icon32x32 = '../../resources/sublime-text.png'
+allowJS = false
+ExternalURL = 'https://www.sublimetext.com'
+ignore = ['id', 'id0', 'id1', 'id2']
+
+# Available 'type' values at
+# # https://kapeli.com/docsets#supportedentrytypes
+
+[[selectors.'']]
+# Each page's header
+css = 'title'
+type = 'Guide'
+
+[[selectors.'']]
+# Page subheadings
+css = 'h2'
+type = 'Section'
+
+
+[[selectors.git_integration]]
+# Git status badges
+css = '#status-badge-key .badges li'
+type = 'Attribute'
+
+[[selectors.git_integration]]
+# Commands and menus
+css = 'ul li p'
+type = 'Command'
+
+[[selectors.git_integration]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.incremental_diff]]
+# Scopes as Tags
+css = '#styling li p'
+type = 'Tag'
+
+[[selectors.incremental_diff]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.indexing]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.command_line]]
+[[selectors.multiple_selection_with_the_keyboard]]
+
+
+[[selectors.completions]]
+# Completion kinds
+css = '#kind-info table.kinds td:not(:has(span))'
+type = 'Value'
+
+[[selectors.completions]]
+# Completion kinds again
+css = '#rich-format dl.setting:has(#kind) ul.simple > li'
+type = 'Value'
+
+[[selectors.completions]]
+# Completion fields
+css = '#completion-files dl.setting > dt'
+type = 'Field'
+
+[[selectors.completions]]
+# Snippet fields
+css = '#snippets dl.setting > dt'
+type = 'Field'
+
+[[selectors.completions]]
+# Variables
+css = '#variables table span.pre'
+requiretext = '\$'
+type = 'Variable'
+
+[[selectors.completions]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.distraction_free]]
+# File
+css = 'span.file'
+type = 'File'
+
+[[selectors.distraction_free]]
+# Settings
+css = '.highlight .nt'
+type = 'Setting'
+
+
+[[selectors.vintage]]
+
+
+[[selectors.projects]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.settings]]
+# File
+css = '#settings-files li span.file'
+type = 'File'
+
+
+[[selectors.key_bindings]]
+# Bindings keys
+css = '#bindings h3'
+type = 'Setting'
+
+[[selectors.key_bindings]]
+# "context" modifiers
+css = '#context-key table code'
+requiretext = '"'
+type = 'Filter'
+
+
+[[selectors.indentation]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+
+[[selectors.spell_checking]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+[[selectors.spell_checking]]
+css = '#commands code:first-child'
+type = 'Command'
+
+
+[[selectors.build_systems]]
+# Options
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Option'
+
+[[selectors.build_systems]]
+css = '#variables table code'
+requiretext = '\$'
+type = 'Variable'
+
+
+[[selectors.packages]]
+css = 'span.file'
+type = 'File'
+
+
+[[selectors.selectors]]
+
+
+[[selectors.file_patterns]]
+# "Uses"
+css = '#uses li code'
+type = 'Setting'
+
+
+[[selectors.gpu_rendering]]
+[[selectors.os_compatibility]]
+[[selectors.linux_repositories]]
+
+
+[[selectors.safe_mode]]
+# Safe Mode data directories
+css = 'span.file'
+type = 'File'
+
+[[selectors.safe_mode]]
+# Safe Mode command
+css = '#starting pre'
+type = 'Command'
+
+
+[[selectors.revert]]
+css = 'li span.file'
+type = 'File'
+
+
+[[selectors.side_by_side]]
+[[selectors.previous_versions]]
+
+
+[[selectors.ligatures]]
+# Ligature options
+css = '.s2 .pre'
+type = 'Option'
+
+
+[[selectors.portable_license_keys]]
+css = 'li span.file'
+type = 'File'
+
+
+[[selectors.color_schemes]]
+# Color functions
+css = '#colors li b'
+type = 'Function'
+
+[[selectors.color_schemes]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+[[selectors.color_schemes]]
+# Font styles
+css = 'dt#font-style dd li code'
+type = 'Value'
+
+[[selectors.color_schemes]]
+# CSS colors
+css = '#appendix-css-colors span:not(.color-block)'
+type = 'Value'
+
+
+[[selectors.themes]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+[[selectors.themes]]
+css = 'dl.themeprop > dt'
+type = 'Property'
+
+[[selectors.themes]]
+css = 'dl.themeclass > dt'
+type = 'Element'
+
+[[selectors.themes]]
+# Element properties
+# TODO: Maybe split these into attributes and proporties
+css = 'dl.themeclass > dd > dl dt code'
+type = 'Property'
+
+
+[[selectors.menus]]
+css = 'dl.setting > dt[id]'
+attr = 'id'
+type = 'Setting'
+
+[[selectors.menus]]
+css = '.subl .descname'
+requiretext = '.sublime-menu'
+type = 'File'
+
+
+[[selectors.api_environments]]
+
+
+[[selectors.api_reference]]
+css = '#types dt.sig[id]'
+attr = 'id'
+type = 'Type'
+
+[[selectors.api_reference]]
+css = '#sublime-module h2 code'
+type = 'Module'
+
+[[selectors.api_reference]]
+css = '#module-sublime_plugin h2 code'
+type = 'Module'
+
+[[selectors.api_reference]]
+css = 'dl.class > div > dt[id]'
+attr = 'id'
+type = 'Class'
+
+[[selectors.api_reference]]
+css = 'dl.class > dt[id]'
+attr = 'id'
+type = 'Class'
+
+[[selectors.api_reference]]
+css = 'dl.function > dt[id]'
+attr = 'id'
+type = 'Function'
+
+[[selectors.api_reference]]
+css = 'dl.method > dt[id]'
+attr = 'id'
+type = 'Method'
+
+[[selectors.api_reference]]
+css = 'dl.attribute > dt[id]'
+attr = 'id'
+type = 'Attribute'
+
+
+[[selectors.syntax]]
+css = '#header dl.setting > dt > span.sig-name'
+type = 'Trait'
+
+[[selectors.syntax]]
+css = '#contexts dl.setting > dt > span.sig-name'
+type = 'Instruction'
+
+[[selectors.syntax]]
+css = '#testing ul > li > p > code:first-child'
+type = 'Test'
+
+
+[[selectors.scope_naming]]
+# Scope names as Tags
+css = 'ul.simple li code'
+type = 'Tag'
+
+
+[[selectors.minihtml]]
+css = '#tags li code'
+requiretext = '<.+>'
+type = 'Element'
+
+[[selectors.minihtml]]
+css = '#attributes li code'
+type = 'Attribute'
+
+[[selectors.minihtml]]
+# CSS styles
+css = '#css > ul li code:first-child'
+type = 'Style'
+
+[[selectors.minihtml]]
+# Color functions
+css = '#color-mod-function-proprietary > ul li code'
+type = 'Function'
+
+[[selectors.minihtml]]
+css = '#predefined-variables > ul li code'
+type = 'Variable'
+
+
+[[selectors.porting_guide]]
