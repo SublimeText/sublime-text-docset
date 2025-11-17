@@ -59,12 +59,13 @@ class DocsetTestCaseBase(ABC, unittest.TestCase):
         contains_lenient: list[tuple[str,str]] | None = None,
         not_contains: list[tuple[str,str]] | None = None,
     ):
-        sql = f'''
+        sql = '''
             SELECT  type, name
             FROM    searchIndex
-            WHERE   path LIKE '{path}#%'
+            WHERE   path LIKE :path_like
         '''
-        res = self.cur.execute(sql)
+        data = {'path_like': f'{path}#%'}
+        res = self.cur.execute(sql, data)
         items = res.fetchall()
 
         for pair in contains_lenient or []:
