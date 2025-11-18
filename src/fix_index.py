@@ -6,7 +6,7 @@ Tweaks the docset SQLite index after creation
 import sys
 import sqlite3
 
-SQLITE_PATH_FMT = 'out/{}/Contents/Resources/docSet.dsidx'
+SQLITE_PATH_FMT = '../out/{}/Contents/Resources/docSet.dsidx'
 DOCSET_FIXES = {
     'sublime-text.docset': [
         ('docs/distraction_free.html',

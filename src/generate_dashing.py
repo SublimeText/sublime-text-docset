@@ -9,8 +9,8 @@ from tomllib import load
 from json import dump
 
 CONFIG_MAP = {
-    'resources/sublime-text.toml': 'sublime-text/www.sublimetext.com/dashing.json',
-    'resources/sublime-merge.toml': 'sublime-merge/www.sublimemerge.com/dashing.json',
+    '../resources/sublime-text.toml': '../sublime-text/www.sublimetext.com/dashing.json',
+    '../resources/sublime-merge.toml': '../sublime-merge/www.sublimemerge.com/dashing.json',
 }
 
 
