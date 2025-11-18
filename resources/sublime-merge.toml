@@ -12,12 +12,12 @@ ignore = ['id', 'id0', 'id1', 'id2']
 # Available 'type' values at
 # # https://kapeli.com/docsets#supportedentrytypes
 
-[[selectors.'']]
+[[selectors.GLOBAL]]
 # Each page's header
 css = 'title'
 type = 'Guide'
 
-[[selectors.'']]
+[[selectors.GLOBAL]]
 # Page subheadings
 css = 'h2'
 type = 'Section'

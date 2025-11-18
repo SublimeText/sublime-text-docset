@@ -19,32 +19,34 @@ def main():
         with open(toml_path, 'rb') as f:
             dashing = load(f)
 
-            selector_list = dashing['selectors']
-            selector_dict = {}
+        selector_list = dashing['selectors']
+        selector_dict = {}
 
-            for path in selector_list:
-                for toml_item in selector_list[path]:
-                    if not toml_item:
-                        continue
+        for path in selector_list:
+            for toml_item in selector_list[path]:
+                if not toml_item:
+                    continue
 
-                    # Pad the selector until it is unique
-                    css = toml_item['css']
-                    while css in selector_dict:
-                        css += ' '
+                # Pad the selector until it is unique
+                css = toml_item['css']
+                while css in selector_dict:
+                    css += ' '
 
-                    json_item = {
-                        **toml_item,
-                        'matchpath': fr'/{path}\.html$' if path else r'\.html$',
-                    }
-                    del json_item['css']
+                matchpath = fr'/{path}\.html$'
+                if path == 'GLOBAL':
+                    matchpath = r'\.html$'
 
-                    selector_dict[css] = json_item
+                json_item = toml_item
+                json_item['matchpath'] = matchpath
+                del json_item['css']
 
-            # Replace [selectors] with the `dashing` format
-            dashing['selectors'] = selector_dict
+                selector_dict[css] = json_item
 
-            with open(json_path, 'w') as f:
-                dump(dashing, f, indent=4)
+        # Replace [selectors] with the `dashing` format
+        dashing['selectors'] = selector_dict
+
+        with open(json_path, 'w') as f:
+            dump(dashing, f, indent=4)
 
 
 if __name__ == '__main__':
