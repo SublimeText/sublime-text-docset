@@ -3,9 +3,10 @@
 """
 Mangles our tweaked TOML format into the `dashing` JSON format
 """
+import sys
+
 from tomllib import load
 from json import dump
-
 
 CONFIG_MAP = {
     'resources/sublime-text.toml': 'sublime-text/www.sublimetext.com/dashing.json',
@@ -13,32 +14,38 @@ CONFIG_MAP = {
 }
 
 
-for toml_path, json_path in CONFIG_MAP.items():
-    with open(toml_path, 'rb') as f:
-        dashing = load(f)
+def main():
+    for toml_path, json_path in CONFIG_MAP.items():
+        with open(toml_path, 'rb') as f:
+            dashing = load(f)
 
-        selector_list = dashing['selectors']
-        selector_dict = {}
+            selector_list = dashing['selectors']
+            selector_dict = {}
 
-        for path in selector_list:
-            for obj in selector_list[path]:
-                if not obj:
-                    continue
-                print(path, obj)
-                css = obj['css']
-                while css in selector_dict:
-                    css += ' '
+            for path in selector_list:
+                for toml_item in selector_list[path]:
+                    if not toml_item:
+                        continue
 
-                item = {
-                    **obj,
-                    'matchpath': fr'/{path}\.html$' if path else r'\.html$'
-                }
-                del item['css']
+                    # Pad the selector until it is unique
+                    css = toml_item['css']
+                    while css in selector_dict:
+                        css += ' '
 
-                print(item)
-                selector_dict[css] = item
+                    json_item = {
+                        **toml_item,
+                        'matchpath': fr'/{path}\.html$' if path else r'\.html$',
+                    }
+                    del json_item['css']
 
-        dashing['selectors'] = selector_dict
-        print(dashing)
-    with open(json_path, 'w') as f:
-        dump(dashing, f, indent=4)
+                    selector_dict[css] = json_item
+
+            # Replace [selectors] with the `dashing` format
+            dashing['selectors'] = selector_dict
+
+            with open(json_path, 'w') as f:
+                dump(dashing, f, indent=4)
+
+
+if __name__ == '__main__':
+    sys.exit(main())
