@@ -19,9 +19,11 @@ sm_built_path := $(sm_site)/$(sm_docset)
 .PHONY: all
 all: clean pre-build build post-build test
 
+.PHONY: pre-build
 pre-build:
 	cd src && python fix_html.py
 
+.PHONY: build
 build:
 	# Shared
 	mkdir -p $(out_folder)
@@ -33,6 +35,7 @@ build:
 	cd $(sm_site) && dashing build
 	mv $(sm_built_path) $(out_folder)
 
+.PHONY: post-build
 post-build:
 	cd src && python fix_index.py
 
@@ -43,6 +46,7 @@ clean:
 	[ -f "$(sm_site)/dashing.json" ] && rm $(sm_site)/dashing.json || true
 	git restore --recurse-submodules $(st_submodule) $(sm_submodule)
 
+.PHONY: zip
 zip:
 	cd $(out_folder) && tar -czvf $(st_docset).tgz $(st_docset)
 	cd $(out_folder) && tar -czvf $(sm_docset).tgz $(sm_docset)
@@ -51,5 +55,6 @@ zip:
 test:
 	cd test && python -m unittest
 
+.PHONY: install-linux
 install-linux:
 	cp -r $(out_folder)/* $(install_path_linux)
