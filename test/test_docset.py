@@ -372,7 +372,9 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Instruction', 'meta_content_scope'),
             ('Test', '^'),
             ('Test', '<-'),
+            ('Test', '@'),
             ('Test', 'local-definition'),
+            ('Test', 'reindent'),
         ]
         not_contains = [
             ('Trait', '.'),

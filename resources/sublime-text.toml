@@ -306,7 +306,7 @@ css = '#contexts dl.setting > dt > span.sig-name'
 type = 'Instruction'
 
 [[selectors.syntax]]
-css = '#testing ul > li > p > code:first-child'
+css = '#testing ul li > p > code:first-child'
 type = 'Test'
 
 
