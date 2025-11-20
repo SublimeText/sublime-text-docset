@@ -48,8 +48,8 @@ clean:
 
 .PHONY: zip
 zip:
-	cd $(out_folder) && tar -czvf $(st_docset).tgz $(st_docset)
-	cd $(out_folder) && tar -czvf $(sm_docset).tgz $(sm_docset)
+	cd $(out_folder) && tar -czvf Sublime_Text.tgz $(st_docset)
+	cd $(out_folder) && tar -czvf Sublime_Merge.tgz $(sm_docset)
 
 .PHONY: test
 test:
