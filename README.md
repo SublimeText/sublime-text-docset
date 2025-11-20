@@ -1,28 +1,38 @@
 # [Sublime Text Docset][self]
 
 [Dash][] and [Zeal][] docset for [Sublime Text][st]’s official
-[documentation][st-docs]. There is also a small docset for [Sublime Merge][sm].
+[documentation][st-docs].
+There is also a small docset for [Sublime Merge][sm].
 
 
 ## Installation
 
 ### Install from a feed
+
 This is likely more convenient because updates will be downloaded
 to your application automatically.
 
 #### Dash
+
 Dash has built-in support for their user-contributed docsets.
-Go to *Preferences* > *Downloads* > *User Contributed*\
+Go to *Preferences* > *Downloads* > *User Contributed*
 to search for "Sublime" and install the community-org maintained ones.
 
 #### Zeal
-Zeal does not have a direct search for user-contrib docsets.
-In Zeal, go to *Tools* > *Docsets&hellip;* > *Add feed*
-and paste in the URL to a [third-party][zuc]'s repacked feed
-[for Sublime Text][zuc-st-feed] or [for Sublime Merge][zuc-sm-feed].
 
+Zeal does not have a direct search for user-contributed docsets.
+In Zeal, go to *Tools* > *Docsets&hellip;* > *Add feed*
+and paste in the URL(s) to the respective [third-party][zuc]'s repacked feed:
+
+```
+https://zealusercontributions.vercel.app/api/docsets/Sublime_Text.xml
+```
+```
+https://zealusercontributions.vercel.app/api/docsets/Sublime_Merge.xml
+```
 
 ### Install manually
+
 Download from [GitHub Releases][releases]
 or build yourself with the instructions below.
 
@@ -31,6 +41,7 @@ or build yourself with the instructions below.
 `out` folder.
 
 #### Install a local folder to Dash
+
 It may be possible to just double-click `sublime-text.docset`.
 If that doesn't work:
 
@@ -44,8 +55,10 @@ If that doesn't work:
 1. Repeat for `sublime-merge.docset`.
 
 ####  Install a local folder to Zeal
+
 If you built yourself and you have default Linux folders,
-just `make install-linux`. Otherwise:
+just `make install-linux`.
+Otherwise:
 
 1. Find your docset folder ("Docset storage" in your Preferences).
 1. Copy or symlink `sublime-text.docset` to that folder.
@@ -88,8 +101,6 @@ just `make install-linux`. Otherwise:
 [st-docs]: https://www.sublimetext.com/docs/index.html
 [sm]: https://www.sublimemerge.com/
 [zuc]: https://zealusercontributions.vercel.app
-[zuc-st-feed]: https://zealusercontributions.vercel.app/api/docsets/Sublime_Text.xml
-[zuc-sm-feed]: https://zealusercontributions.vercel.app/api/docsets/Sublime_Merge.xml
 [releases]: https://github.com/SublimeText/sublime-text-docset/releases
 [dashing]: https://github.com/technosophos/dashing#readme
 
