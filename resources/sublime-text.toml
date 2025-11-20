@@ -219,8 +219,8 @@ attr = 'id'
 type = 'Setting'
 
 [[selectors.color_schemes]]
-# Font styles
-css = 'dt#font-style dd li code'
+# Various constants for font_style, tags_options, etc.
+css = 'dd li code.literal'
 type = 'Value'
 
 

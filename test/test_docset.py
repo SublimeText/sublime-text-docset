@@ -322,6 +322,8 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Section', 'Scope Rules'),
             ('Setting', 'minimap_border'),
             ('Function', 'blenda() adjuster'),
+            ('Value', 'bold'),
+            ('Value', 'squiggly_underline'),
         ]
         self._test_a_doc_page_index('docs/color_schemes.html', contains)
 
