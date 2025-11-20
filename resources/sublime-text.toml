@@ -223,11 +223,6 @@ type = 'Setting'
 css = 'dt#font-style dd li code'
 type = 'Value'
 
-[[selectors.color_schemes]]
-# CSS colors
-css = '#appendix-css-colors span:not(.color-block)'
-type = 'Value'
-
 
 [[selectors.themes]]
 css = 'dl.setting > dt[id]'

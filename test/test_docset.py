@@ -322,7 +322,6 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Section', 'Scope Rules'),
             ('Setting', 'minimap_border'),
             ('Function', 'blenda() adjuster'),
-            ('Value', 'aliceblue'),
         ]
         self._test_a_doc_page_index('docs/color_schemes.html', contains)
 
