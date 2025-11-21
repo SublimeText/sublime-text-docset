@@ -20,14 +20,16 @@ to search for "Sublime" and install the community-org maintained ones.
 
 #### Zeal
 
-Zeal does not have a direct search for user-contributed docsets.
+Zeal does not have a direct search for user-contributed docsets,
+but a [third-party website][zuc] repackages docset feeds
+in a compatible format.
 In Zeal, go to *Tools* > *Docsets&hellip;* > *Add feed*
-and paste in the URL(s) to the respective [third-party][zuc]'s repacked feed:
+and paste in the URL(s) to the respective feed:
 
-```
+```none
 https://zealusercontributions.vercel.app/api/docsets/Sublime_Text.xml
 ```
-```
+```none
 https://zealusercontributions.vercel.app/api/docsets/Sublime_Merge.xml
 ```
 
