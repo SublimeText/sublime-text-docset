@@ -24,7 +24,7 @@ Zeal does not have a direct search for user-contributed docsets,
 but a [third-party website][zuc] repackages docset feeds
 in a compatible format.
 In Zeal, go to *Tools* > *Docsets&hellip;* > *Add feed*
-and paste in the URL(s) to the respective feed:
+and paste in the URL to the respective feed:
 
 ```none
 https://zealusercontributions.vercel.app/api/docsets/Sublime_Text.xml
