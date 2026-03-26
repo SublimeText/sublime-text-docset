@@ -1,7 +1,7 @@
 # [Sublime Text Docset][self]
 
-[Dash][] and [Zeal][] docset for [Sublime Text][st]’s official
-[documentation][st-docs].
+[Dash][], [Zeal][], and [Velocity][] docset
+for [Sublime Text][st]’s official [documentation][st-docs].
 There is also a small docset for [Sublime Merge][sm].
 
 
@@ -20,11 +20,15 @@ to search for "Sublime" and install the community-org maintained ones.
 
 #### Zeal
 
-Zeal does not have a direct search for user-contributed docsets,
-but a [third-party website][zuc] repackages docset feeds
+Zeal currently mixes user contributed docsets in with the main ones.
+Go to *Tools* > *Docsets&hellip;* > *Avalailable*
+to search for "Sublime" and install the community-org maintained ones.
+
+#### Third-party feed
+
+For consumers without a direct search for user-contributed docsets,
+a [third-party website][zuc] repackages docset feeds
 in a compatible format.
-In Zeal, go to *Tools* > *Docsets&hellip;* > *Add feed*
-and paste in the URL to the respective feed:
 
 ```none
 https://zealusercontributions.vercel.app/api/docsets/Sublime_Text.xml
@@ -93,13 +97,15 @@ Otherwise:
 
 - [Alex (Oleksii) Markov][malexer] made the first version of this docset.
 - [Ali Ayas][maliayas] made the ST and SM docs scanners used here as submodules.
-- Most recent development is [Michael B. Lyons][michaelblyons] and [FichteFoll][].
-- Many thanks to [Sublime HQ][shq] for [letting us][permission] make this.
+- Most of the recent development comes from
+   [Michael B. Lyons][michaelblyons] and [FichteFoll][].
+- Many thanks to [Sublime HQ][shq] for [permission][] for this project.
 
 
 [self]: https://github.com/SublimeText/sublime-text-docset
-[Dash]: https://kapeli.com/dash
-[Zeal]: https://zealdocs.org
+[dash]: https://kapeli.com/dash
+[zeal]: https://zealdocs.org
+[velocity]: https://velocity.silverlakesoftware.com
 [st]: https://www.sublimetext.com/
 [st-docs]: https://www.sublimetext.com/docs/index.html
 [sm]: https://www.sublimemerge.com/
