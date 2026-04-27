@@ -29,10 +29,10 @@ build:
 	mkdir -p $(out_folder)
 	cd src && python generate_dashing.py
 	# Sublime Text
-	cd $(st_site) && dashing build
+	cd $(st_site) && dashing build | tee ../../$(out_folder)/dashing-$(st_submodule).txt
 	mv $(st_built_path) $(out_folder)
 	# Sublime Merge
-	cd $(sm_site) && dashing build
+	cd $(sm_site) && dashing build | tee ../../$(out_folder)/dashing-$(sm_submodule).txt
 	mv $(sm_built_path) $(out_folder)
 
 .PHONY: post-build
