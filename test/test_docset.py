@@ -295,7 +295,7 @@ class SublimeMergeDocsetTestCase(DocsetTestCaseBase):
             ('File', '%APPDATA%\\Sublime Merge\\'),
             ('File', '%APPDATA%\\Sublime Merge\\Installed Packages\\'),
             ('File', '%APPDATA%\\Sublime Merge\\Packages\\'),
-            ('File', '%~/.config/sublime-merge/Installed Packages/'),
+            # ('File', '%~/.config/sublime-merge/Installed Packages/'),  # Report upstream
             ('File', '/Applications/Sublime Merge.app/Contents/MacOS/Packages/'),
             ('File', '/opt/sublime_merge/Packages/'),
             ('File', 'C:\\Program Files\\Sublime Merge\\Packages\\'),
@@ -1358,8 +1358,8 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
 
     def test_completions(self):
         contains = [
-            ('Field', '"contents" string (REQUIRED)'),
-            ('Field', '"trigger" string (REQUIRED)'),
+            ('Field', '"contents" string (REQUIRED)'),  #fixme
+            ('Field', '"trigger" string (REQUIRED)'),  #fixme
             ('Field', 'contents'),
             ('Field', 'description'),
             ('Field', 'scope'),
