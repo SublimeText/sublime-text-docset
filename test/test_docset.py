@@ -3,10 +3,12 @@ import sqlite3
 
 from abc import ABC
 from collections import defaultdict
+from pathlib import Path
 
 
 class DocsetTestCaseBase(ABC, unittest.TestCase):
     NAME = None
+    DOCS_PATH_FMT = '../out/{}/Contents/Resources/Documents'
     SQLITE_PATH_FMT = '../out/{}/Contents/Resources/docSet.dsidx'
 
     @classmethod
@@ -38,10 +40,18 @@ class DocsetTestCaseBase(ABC, unittest.TestCase):
         res = self.cur.execute(sql)
         self.assertFalse(res.fetchall())
 
-    @unittest.skip('Not implemented')
     def test_no_broken_paths(self):
         """The docset index must not contain broken paths"""
-        pass
+        sql = '''
+            SELECT  DISTINCT substr(path, 0, instr(path, '#'))
+            FROM    searchIndex
+        '''
+        res = self.cur.execute(sql)
+
+        root = self.DOCS_PATH_FMT.format(self.NAME)
+        for rel_path in res.fetchall():
+            path = Path(root, rel_path[0])
+            self.assertTrue(path.is_file(), f'{path} was not a file')
 
     def test_paths_are_autolinks(self):
         """Sanity check dashing format"""
