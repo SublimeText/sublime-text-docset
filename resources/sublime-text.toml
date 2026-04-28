@@ -282,6 +282,11 @@ attr = 'id'
 type = 'Class'
 
 [[selectors.api_reference]]
+css = 'dl.exception > dt[id]'
+attr = 'id'
+type = 'Exception'
+
+[[selectors.api_reference]]
 css = 'dl.function > dt[id]'
 attr = 'id'
 type = 'Function'
