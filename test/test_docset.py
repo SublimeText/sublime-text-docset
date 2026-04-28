@@ -370,6 +370,7 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Function', 'sublime.cache_path'),
             ('Attribute', 'sublime.KindId.COLOR_YELLOWISH'),
             ('Attribute', 'sublime.RegionFlags.DRAW_EMPTY_AS_OVERWRITE'),
+            ('Exception', 'sublime.FileTooLargeError'),
         ]
         self._test_a_doc_page_index('docs/api_reference.html', contains)
 
