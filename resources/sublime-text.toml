@@ -272,7 +272,7 @@ css = '#module-sublime_plugin h2 code'
 type = 'Module'
 
 [[selectors.api_reference]]
-css = 'dl.class > div > dt[id]'
+css = 'dl.class > div[id^=sublime]'
 attr = 'id'
 type = 'Class'
 
@@ -280,6 +280,11 @@ type = 'Class'
 css = 'dl.class > dt[id]'
 attr = 'id'
 type = 'Class'
+
+[[selectors.api_reference]]
+css = 'dl.exception > dt[id]'
+attr = 'id'
+type = 'Exception'
 
 [[selectors.api_reference]]
 css = 'dl.function > dt[id]'

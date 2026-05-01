@@ -873,6 +873,7 @@ class SublimeTextDocsetTestCase(DocsetTestCaseBase):
             ('Class', 'sublime_plugin.TextInputHandler'),
             ('Class', 'sublime_plugin.ViewEventListener'),
             ('Class', 'sublime_plugin.WindowCommand'),
+            ('Exception', 'sublime.FileTooLargeError'),
             ('Function', 'sublime.active_window'),
             ('Function', 'sublime.arch'),
             ('Function', 'sublime.cache_path'),
