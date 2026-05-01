@@ -38,6 +38,7 @@ build:
 .PHONY: post-build
 post-build:
 	cd src && python fix_index.py
+	cd src && python dump_index.py
 
 .PHONY: clean
 clean:
