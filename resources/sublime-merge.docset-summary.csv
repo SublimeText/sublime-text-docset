@@ -1,0 +1,501 @@
+Path,Type,Name,Count
+docs/command_line.html,Guide,Command Line,1
+docs/command_line.html,Section,Git Merge Tool Setup,1
+docs/command_line.html,Section,Git Merge Tool Usage,1
+docs/command_line.html,Section,Setup,1
+docs/command_line.html,Section,Usage,1
+docs/command_palette.html,Guide,Command Palette,1
+docs/command_palette.html,Section,Entries,1
+docs/command_palette.html,Section,Example,1
+docs/command_palette.html,Section,User Entries,1
+docs/custom_commands.html,Guide,Custom Commands,1
+docs/custom_commands.html,Section,Basic Example,1
+docs/custom_commands.html,Section,Using Selectors,1
+docs/diff_context.html,Guide,Diff Context,1
+docs/diff_context.html,Section,Context Dragging,1
+docs/diff_context.html,Section,Full File Context,1
+docs/faq.html,Guide,Frequently Asked Questions,1
+docs/faq.html,Section,Can I add custom Git commands to Sublime Merge?,1
+docs/faq.html,Section,Can I customize the keybindings in Sublime Merge?,1
+docs/faq.html,Section,Can I customize the theme in Sublime Merge?,1
+docs/faq.html,Section,Can I diff between two commits?,1
+docs/faq.html,Section,Can I do X in Sublime Merge?,1
+docs/faq.html,Section,Can I edit an existing commit?,1
+docs/faq.html,Section,Can I share feedback with the Sublime Merge team?,1
+docs/faq.html,Section,Can I stage individual lines with Sublime Merge?,1
+docs/faq.html,Section,How do I authenticate with a remote repository?,1
+docs/faq.html,Section,How do I use Sublime Merge?,1
+docs/faq.html,Section,What is Git / a Git Client / Sublime Merge?,1
+docs/getting_started.html,Guide,Getting Started,1
+docs/getting_started.html,Section,Adding remotes,1
+docs/getting_started.html,Section,Cloning an existing repository,1
+docs/getting_started.html,Section,Creating a branch,1
+docs/getting_started.html,Section,Creating a commit,1
+docs/getting_started.html,Section,Creating a new repository,1
+docs/getting_started.html,Section,Fixing and editing commits,1
+docs/getting_started.html,Section,Merging branches,1
+docs/getting_started.html,Section,Pushing and pulling,1
+docs/getting_started.html,Section,Remote authentication,1
+docs/getting_started.html,Section,Resolving merge conflicts,1
+docs/getting_started.html,Section,Setting the upstream,1
+docs/getting_started.html,Section,Understanding the interface,1
+docs/getting_started.html,Section,Using the command palette,1
+docs/index.html,Guide,Documentation,1
+docs/index.html,Section,Customization,1
+docs/index.html,Section,Features,1
+docs/index.html,Section,General,1
+docs/index.html,Section,Miscellaneous,1
+docs/index.html,Section,Package Development,1
+docs/key_bindings.html,Filter,"""blame_mode""",1
+docs/key_bindings.html,Filter,"""can_commit""",1
+docs/key_bindings.html,Filter,"""collapsible""",1
+docs/key_bindings.html,Filter,"""command_status_visible""",1
+docs/key_bindings.html,Filter,"""control""",1
+docs/key_bindings.html,Filter,"""has_modified""",1
+docs/key_bindings.html,Filter,"""has_staged""",1
+docs/key_bindings.html,Filter,"""has_untracked""",1
+docs/key_bindings.html,Filter,"""is_blame""",1
+docs/key_bindings.html,Filter,"""is_diff""",1
+docs/key_bindings.html,Filter,"""is_editing_commit""",1
+docs/key_bindings.html,Filter,"""is_staged""",1
+docs/key_bindings.html,Filter,"""merge_mode""",1
+docs/key_bindings.html,Filter,"""overlay_visible""",1
+docs/key_bindings.html,Filter,"""search_mode""",1
+docs/key_bindings.html,Filter,"""tree_mode""",1
+docs/key_bindings.html,Guide,Key Bindings,1
+docs/key_bindings.html,Section,Bindings,1
+docs/key_bindings.html,Section,Example,1
+docs/key_bindings.html,Section,User Bindings,1
+docs/key_bindings.html,Setting,"""args"" Key",1
+docs/key_bindings.html,Setting,"""command"" Key",1
+docs/key_bindings.html,Setting,"""context"" Key",1
+docs/key_bindings.html,Setting,"""keys"" Key",1
+docs/linux_repositories.html,Guide,Linux Package Manager Repositories,1
+docs/linux_repositories.html,Section,apt,1
+docs/linux_repositories.html,Section,dnf,1
+docs/linux_repositories.html,Section,pacman,1
+docs/linux_repositories.html,Section,yum,1
+docs/linux_repositories.html,Section,zypper,1
+docs/menus.html,File,Action.sublime-menu,1
+docs/menus.html,File,Advanced Commit.sublime-menu,1
+docs/menus.html,File,Branch Folder.sublime-menu,1
+docs/menus.html,File,Branch Section.sublime-menu,1
+docs/menus.html,File,Branch.sublime-menu,1
+docs/menus.html,File,Commit.sublime-menu,1
+docs/menus.html,File,Diff Context.sublime-menu,1
+docs/menus.html,File,File Mode Context.sublime-menu,1
+docs/menus.html,File,File.sublime-menu,1
+docs/menus.html,File,Hunk.sublime-menu,1
+docs/menus.html,File,Index File.sublime-menu,1
+docs/menus.html,File,Main.sublime-menu,1
+docs/menus.html,File,Modified File.sublime-menu,1
+docs/menus.html,File,Remote Branch Folder.sublime-menu,1
+docs/menus.html,File,Remote Branch.sublime-menu,1
+docs/menus.html,File,Remote Section.sublime-menu,1
+docs/menus.html,File,Remote Tag.sublime-menu,1
+docs/menus.html,File,Remote.sublime-menu,1
+docs/menus.html,File,Stash Section.sublime-menu,1
+docs/menus.html,File,Stash.sublime-menu,1
+docs/menus.html,File,Submodule Section.sublime-menu,1
+docs/menus.html,File,Submodule.sublime-menu,1
+docs/menus.html,File,Tag Section.sublime-menu,1
+docs/menus.html,File,Tag.sublime-menu,1
+docs/menus.html,File,Unmerged File.sublime-menu,1
+docs/menus.html,File,Untracked File.sublime-menu,1
+docs/menus.html,File,Widget Context.sublime-menu,1
+docs/menus.html,Guide,Menus,1
+docs/menus.html,Section,Adding to Submenus,1
+docs/menus.html,Section,Available Menus and Variables,1
+docs/menus.html,Section,Customization,1
+docs/menus.html,Section,Entries,1
+docs/menus.html,Section,Example,1
+docs/menus.html,Setting,"""args""",1
+docs/menus.html,Setting,"""caption""",1
+docs/menus.html,Setting,"""children""",1
+docs/menus.html,Setting,"""command""",1
+docs/menus.html,Setting,"""id""",1
+docs/menus.html,Setting,"""mnemonic""",1
+docs/menus.html,Setting,"""platform""",1
+docs/menus.html,Variable,$commit,1
+docs/menus.html,Variable,$git_dir,1
+docs/menus.html,Variable,$head,1
+docs/menus.html,Variable,$head_ref,1
+docs/menus.html,Variable,$short_commit,1
+docs/menus.html,Variable,$working_dir,1
+docs/minihtml.html,Guide,minihtml Reference,1
+docs/minihtml.html,Section,CSS,1
+docs/minihtml.html,Variable,var(--accent),1
+docs/minihtml.html,Variable,var(--background),1
+docs/minihtml.html,Variable,var(--bluish),1
+docs/minihtml.html,Variable,var(--cyanish),1
+docs/minihtml.html,Variable,var(--foreground),1
+docs/minihtml.html,Variable,var(--greenish),1
+docs/minihtml.html,Variable,var(--orangish),1
+docs/minihtml.html,Variable,var(--pinkish),1
+docs/minihtml.html,Variable,var(--purplish),1
+docs/minihtml.html,Variable,var(--redish),1
+docs/minihtml.html,Variable,var(--yellowish),1
+docs/packages.html,File,%APPDATA%\Sublime Merge\,1
+docs/packages.html,File,%APPDATA%\Sublime Merge\Installed Packages\,1
+docs/packages.html,File,%APPDATA%\Sublime Merge\Packages\,1
+docs/packages.html,File,%~/.config/sublime-merge/Installed Packages/,1
+docs/packages.html,File,/Applications/Sublime Merge.app/Contents/MacOS/Packages/,1
+docs/packages.html,File,/opt/sublime_merge/Packages/,1
+docs/packages.html,File,C:\Program Files\Sublime Merge\Packages\,1
+docs/packages.html,File,~/.config/sublime-merge/,1
+docs/packages.html,File,~/.config/sublime-merge/Packages/,1
+docs/packages.html,File,~/Library/Application Support/Sublime Merge/,1
+docs/packages.html,File,~/Library/Application Support/Sublime Merge/Installed Packages/,1
+docs/packages.html,File,~/Library/Application Support/Sublime Merge/Packages/,1
+docs/packages.html,Guide,Packages,1
+docs/packages.html,Section,Installing Packages,1
+docs/packages.html,Section,Package Directories,1
+docs/packages.html,Section,Zipped Package Files,1
+docs/themes.html,Attribute,checked,1
+docs/themes.html,Attribute,confirm,1
+docs/themes.html,Attribute,dark,4
+docs/themes.html,Attribute,expandable,3
+docs/themes.html,Attribute,expanded,4
+docs/themes.html,Attribute,file_dark,1
+docs/themes.html,Attribute,file_light,1
+docs/themes.html,Attribute,file_medium,1
+docs/themes.html,Attribute,file_medium_dark,1
+docs/themes.html,Attribute,highlighted,1
+docs/themes.html,Attribute,horizontal,3
+docs/themes.html,Attribute,hover,1
+docs/themes.html,Attribute,pressed,1
+docs/themes.html,Attribute,selectable,3
+docs/themes.html,Attribute,selected,8
+docs/themes.html,Element,annotation_with_icon_row,1
+docs/themes.html,Element,author_label,1
+docs/themes.html,Element,auto_complete,1
+docs/themes.html,Element,auto_complete_label,1
+docs/themes.html,Element,blame_commit_summary,1
+docs/themes.html,Element,blame_text_control,1
+docs/themes.html,Element,branch_stat,1
+docs/themes.html,Element,branch_stat_label,1
+docs/themes.html,Element,branch_stat_meta,1
+docs/themes.html,Element,branch_stats_meta,1
+docs/themes.html,Element,button_control,2
+docs/themes.html,Element,button_control all_button,1
+docs/themes.html,Element,button_control icon_button,1
+docs/themes.html,Element,button_control icon_button close_refs_filter,1
+docs/themes.html,Element,button_control icon_button file_button,1
+docs/themes.html,Element,button_control icon_button search_close,1
+docs/themes.html,Element,button_control icon_button search_history_dropdown,1
+docs/themes.html,Element,button_control icon_button search_refs,1
+docs/themes.html,Element,button_control icon_button transparent,1
+docs/themes.html,Element,button_control_left,1
+docs/themes.html,Element,button_control_right,1
+docs/themes.html,Element,checkbox_box_control,1
+docs/themes.html,Element,checkbox_control,1
+docs/themes.html,Element,close_button_control,1
+docs/themes.html,Element,command_history_container,1
+docs/themes.html,Element,command_history_label,1
+docs/themes.html,Element,command_table,1
+docs/themes.html,Element,command_table_container command_history,1
+docs/themes.html,Element,commit_annotation,1
+docs/themes.html,Element,commit_annotation_container,1
+docs/themes.html,Element,commit_annotations,1
+docs/themes.html,Element,commit_author_container,1
+docs/themes.html,Element,commit_button,1
+docs/themes.html,Element,commit_buttons,1
+docs/themes.html,Element,commit_details_header,1
+docs/themes.html,Element,commit_dialog_header,1
+docs/themes.html,Element,commit_dialog_section_container,1
+docs/themes.html,Element,commit_dialog_summary_container,1
+docs/themes.html,Element,commit_edges_control,1
+docs/themes.html,Element,commit_file_name_label,1
+docs/themes.html,Element,commit_file_path_label,1
+docs/themes.html,Element,commit_message_container,1
+docs/themes.html,Element,commit_metadata_container,1
+docs/themes.html,Element,commit_metadata_standin,1
+docs/themes.html,Element,commit_summary_control,1
+docs/themes.html,Element,commit_table,1
+docs/themes.html,Element,commit_table_container,1
+docs/themes.html,Element,commit_table_row,1
+docs/themes.html,Element,condensed_branch_annotation,1
+docs/themes.html,Element,condensed_branch_annotation_container,1
+docs/themes.html,Element,condensed_branch_icon,1
+docs/themes.html,Element,console_panel,1
+docs/themes.html,Element,deleted_annotation,1
+docs/themes.html,Element,details_panel,1
+docs/themes.html,Element,details_tab_bar,1
+docs/themes.html,Element,dialog,1
+docs/themes.html,Element,diff scroll_area_control,1
+docs/themes.html,Element,diff_text_control,1
+docs/themes.html,Element,disclosure_button_control,1
+docs/themes.html,Element,diverged_button_container,1
+docs/themes.html,Element,diverged_container,1
+docs/themes.html,Element,edit_button_container,1
+docs/themes.html,Element,eliding_label_control,1
+docs/themes.html,Element,expand_all_diff_control,1
+docs/themes.html,Element,failed_label,1
+docs/themes.html,Element,field_name_label,1
+docs/themes.html,Element,file_annotation,1
+docs/themes.html,Element,file_badge,1
+docs/themes.html,Element,file_badge_split_container,1
+docs/themes.html,Element,file_diff_control,1
+docs/themes.html,Element,file_diff_header,1
+docs/themes.html,Element,file_diff_hunk_container,1
+docs/themes.html,Element,file_diff_hunk_header,1
+docs/themes.html,Element,file_icon,1
+docs/themes.html,Element,file_icons,1
+docs/themes.html,Element,file_meta,1
+docs/themes.html,Element,focus_highlight_control,1
+docs/themes.html,Element,git_output_button,1
+docs/themes.html,Element,git_output_data_container,1
+docs/themes.html,Element,header,1
+docs/themes.html,Element,hint_control,1
+docs/themes.html,Element,hint_label,1
+docs/themes.html,Element,hint_stem,1
+docs/themes.html,Element,hunk_button,1
+docs/themes.html,Element,hunk_description_container,1
+docs/themes.html,Element,hunk_label_container,1
+docs/themes.html,Element,icon_ahead,1
+docs/themes.html,Element,icon_back,1
+docs/themes.html,Element,icon_behind,1
+docs/themes.html,Element,icon_cancel,1
+docs/themes.html,Element,icon_created,1
+docs/themes.html,Element,icon_deleted,1
+docs/themes.html,Element,icon_dropdown_button,1
+docs/themes.html,Element,icon_filter,1
+docs/themes.html,Element,icon_folder,1
+docs/themes.html,Element,icon_forward,1
+docs/themes.html,Element,icon_hidden,1
+docs/themes.html,Element,icon_location_bar,1
+docs/themes.html,Element,icon_more,1
+docs/themes.html,Element,icon_options_dropdown,1
+docs/themes.html,Element,icon_pop_stash,1
+docs/themes.html,Element,icon_pull,1
+docs/themes.html,Element,icon_push,1
+docs/themes.html,Element,icon_recent,1
+docs/themes.html,Element,icon_search,1
+docs/themes.html,Element,icon_section_actions,1
+docs/themes.html,Element,icon_side_bar,1
+docs/themes.html,Element,icon_staged,1
+docs/themes.html,Element,icon_stash,1
+docs/themes.html,Element,icon_text,1
+docs/themes.html,Element,icon_uninitialized_submodule,1
+docs/themes.html,Element,icon_unmerged,1
+docs/themes.html,Element,icon_visible,1
+docs/themes.html,Element,image_diff_container,1
+docs/themes.html,Element,image_diff_control,1
+docs/themes.html,Element,image_dimensions_container,1
+docs/themes.html,Element,image_metadata_label,1
+docs/themes.html,Element,index_action_label,1
+docs/themes.html,Element,index_files_label,1
+docs/themes.html,Element,info_area,1
+docs/themes.html,Element,info_area_line,1
+docs/themes.html,Element,inserted_annotation,1
+docs/themes.html,Element,label_control,1
+docs/themes.html,Element,label_control bad_signature,1
+docs/themes.html,Element,label_control commit_author,1
+docs/themes.html,Element,label_control good_signature,1
+docs/themes.html,Element,label_control merge_helper_help_text_label,1
+docs/themes.html,Element,label_control merge_helper_highlight_label,1
+docs/themes.html,Element,loading,1
+docs/themes.html,Element,location_bar_branch_row,1
+docs/themes.html,Element,location_bar_container,1
+docs/themes.html,Element,location_bar_heading,1
+docs/themes.html,Element,location_bar_label,1
+docs/themes.html,Element,location_bar_row,1
+docs/themes.html,Element,location_bar_tree,1
+docs/themes.html,Element,merge_helper_buttons_container,1
+docs/themes.html,Element,merge_helper_container,1
+docs/themes.html,Element,merge_options_container,1
+docs/themes.html,Element,message_label,1
+docs/themes.html,Element,mini_quick_panel_row,1
+docs/themes.html,Element,new_tab_button,1
+docs/themes.html,Element,new_tab_icon,1
+docs/themes.html,Element,onion_skin_slider,1
+docs/themes.html,Element,open_new_repository_buttons_container,1
+docs/themes.html,Element,overlay_control,1
+docs/themes.html,Element,popup_control auto_complete_popup,1
+docs/themes.html,Element,preference_help_text_label,1
+docs/themes.html,Element,preference_text_input_container,1
+docs/themes.html,Element,preference_title_label,1
+docs/themes.html,Element,preference_wrapper,1
+docs/themes.html,Element,preferences_buttons_container,1
+docs/themes.html,Element,preferences_overlay_left,1
+docs/themes.html,Element,preferences_overlay_right,1
+docs/themes.html,Element,preferences_section_label,1
+docs/themes.html,Element,preferences_section_table,1
+docs/themes.html,Element,progress_bar_control,1
+docs/themes.html,Element,progress_gauge_control,1
+docs/themes.html,Element,puck_control,1
+docs/themes.html,Element,quick_panel,1
+docs/themes.html,Element,quick_panel_label,1
+docs/themes.html,Element,quick_panel_label command,1
+docs/themes.html,Element,quick_panel_label hint,1
+docs/themes.html,Element,quick_panel_label keybinding,1
+docs/themes.html,Element,quick_panel_label preview,1
+docs/themes.html,Element,quick_panel_path_label,1
+docs/themes.html,Element,quick_panel_row,1
+docs/themes.html,Element,radio_button_list_control,1
+docs/themes.html,Element,recent_commit_messages icon_options_dropdown,1
+docs/themes.html,Element,recent_commit_messages_dropdown_container,1
+docs/themes.html,Element,recent_repository_button,1
+docs/themes.html,Element,recent_repository_row,1
+docs/themes.html,Element,recently_modified,1
+docs/themes.html,Element,ref_filter_input_container,1
+docs/themes.html,Element,repository_tab_label_container,1
+docs/themes.html,Element,root_tabs,1
+docs/themes.html,Element,scroll_area_control,1
+docs/themes.html,Element,scroll_bar_control,1
+docs/themes.html,Element,scroll_corner_control,1
+docs/themes.html,Element,scroll_track_control,1
+docs/themes.html,Element,search_dialog,1
+docs/themes.html,Element,search_help,1
+docs/themes.html,Element,search_message,1
+docs/themes.html,Element,search_text_control,1
+docs/themes.html,Element,searching,1
+docs/themes.html,Element,separator,1
+docs/themes.html,Element,separator_container,1
+docs/themes.html,Element,side_bar_container,1
+docs/themes.html,Element,side_bar_tabs,1
+docs/themes.html,Element,side_by_side_and_metadata_container,1
+docs/themes.html,Element,side_by_side_image_container,1
+docs/themes.html,Element,split_commit_button,1
+docs/themes.html,Element,stash_annotation,1
+docs/themes.html,Element,submodule_annotation,1
+docs/themes.html,Element,submodule_light_annotation,1
+docs/themes.html,Element,submodule_stat,1
+docs/themes.html,Element,subtitle_label_control,1
+docs/themes.html,Element,tab_body_container,1
+docs/themes.html,Element,tab_close_button,1
+docs/themes.html,Element,tab_control,1
+docs/themes.html,Element,tab_dropdown_button,1
+docs/themes.html,Element,tab_label,1
+docs/themes.html,Element,tab_select_dropdown_icon,1
+docs/themes.html,Element,tab_separator,1
+docs/themes.html,Element,tab_separator_container,1
+docs/themes.html,Element,table_of_contents_heading,1
+docs/themes.html,Element,table_of_contents_heading_container,1
+docs/themes.html,Element,table_of_contents_icon,1
+docs/themes.html,Element,table_of_contents_icon_wrapper,1
+docs/themes.html,Element,table_of_contents_label,1
+docs/themes.html,Element,table_of_contents_row_container,1
+docs/themes.html,Element,table_of_contents_style_container,1
+docs/themes.html,Element,table_of_contents_style_selector,1
+docs/themes.html,Element,table_of_contents_tree,1
+docs/themes.html,Element,table_row,1
+docs/themes.html,Element,tabset_control,1
+docs/themes.html,Element,tag_annotation,1
+docs/themes.html,Element,tag_annotation_container,1
+docs/themes.html,Element,tag_annotation_icon,1
+docs/themes.html,Element,terminator,1
+docs/themes.html,Element,terminator_container,1
+docs/themes.html,Element,text_line_control,1
+docs/themes.html,Element,time_label,1
+docs/themes.html,Element,title_label_control,1
+docs/themes.html,Element,toggle_button,1
+docs/themes.html,Element,toggle_diverged_banner_button,1
+docs/themes.html,Element,tool_tip_control,1
+docs/themes.html,Element,tool_tip_label_control,1
+docs/themes.html,Element,total_untracked,1
+docs/themes.html,Element,tree,1
+docs/themes.html,Element,tree_details,1
+docs/themes.html,Element,tree_row,1
+docs/themes.html,Element,use_hunk_button,1
+docs/themes.html,Element,welcome_overlay,1
+docs/themes.html,Element,welcome_overlay_contents,1
+docs/themes.html,Guide,Themes,1
+docs/themes.html,Property,background_color,3
+docs/themes.html,Property,bg,4
+docs/themes.html,Property,border_color,1
+docs/themes.html,Property,border_radius,1
+docs/themes.html,Property,border_width,1
+docs/themes.html,Property,bottom_shadow,1
+docs/themes.html,Property,bottom_shadow_size,1
+docs/themes.html,Property,box_margin,1
+docs/themes.html,Property,case,1
+docs/themes.html,Property,checkerboard_alt_bg,1
+docs/themes.html,Property,checkerboard_main_bg,1
+docs/themes.html,Property,close_button_side,1
+docs/themes.html,Property,color,10
+docs/themes.html,Property,color0 ... color19,1
+docs/themes.html,Property,color0 ... color7,1
+docs/themes.html,Property,color_scheme_tint,1
+docs/themes.html,Property,color_scheme_tint_2,1
+docs/themes.html,Property,content_margin,13
+docs/themes.html,Property,dark_content,1
+docs/themes.html,Property,fg,6
+docs/themes.html,Property,fg_blend,1
+docs/themes.html,Property,font.bold,1
+docs/themes.html,Property,font.face,2
+docs/themes.html,Property,font.italic,1
+docs/themes.html,Property,font.size,2
+docs/themes.html,Property,frame_time,1
+docs/themes.html,Property,headline_color,2
+docs/themes.html,Property,highlight_border_color,1
+docs/themes.html,Property,highlight_color,1
+docs/themes.html,Property,highlight_time,1
+docs/themes.html,Property,hit_test_level,1
+docs/themes.html,Property,icon_spacing,1
+docs/themes.html,Property,indent,1
+docs/themes.html,Property,indent_offset,1
+docs/themes.html,Property,indent_top_level,1
+docs/themes.html,Property,interpolation,1
+docs/themes.html,Property,keyframes,1
+docs/themes.html,Property,layer#.draw_center,1
+docs/themes.html,Property,layer#.inner_margin,1
+docs/themes.html,Property,layer#.opacity,1
+docs/themes.html,Property,layer#.repeat,1
+docs/themes.html,Property,layer#.texture,1
+docs/themes.html,Property,layer#.tint,1
+docs/themes.html,Property,layer0.*,1
+docs/themes.html,Property,layer1.*,1
+docs/themes.html,Property,layer2.*,1
+docs/themes.html,Property,layer3.*,1
+docs/themes.html,Property,left_shadow,1
+docs/themes.html,Property,left_shadow_size,1
+docs/themes.html,Property,line_selection_border_color,1
+docs/themes.html,Property,line_selection_border_radius,1
+docs/themes.html,Property,line_selection_border_width,1
+docs/themes.html,Property,line_selection_color,1
+docs/themes.html,Property,line_width,1
+docs/themes.html,Property,link_color,2
+docs/themes.html,Property,loop,1
+docs/themes.html,Property,match_fg,1
+docs/themes.html,Property,max_margin_trim,1
+docs/themes.html,Property,max_width,1
+docs/themes.html,Property,message_content_margin,3
+docs/themes.html,Property,min_size,1
+docs/themes.html,Property,mouse_wheel_switch,1
+docs/themes.html,Property,num_colors,2
+docs/themes.html,Property,num_unique_columns,1
+docs/themes.html,Property,overlay,1
+docs/themes.html,Property,puck_border_color,1
+docs/themes.html,Property,puck_color,1
+docs/themes.html,Property,right_shadow,1
+docs/themes.html,Property,right_shadow_size,1
+docs/themes.html,Property,row_padding,1
+docs/themes.html,Property,selected_fg,1
+docs/themes.html,Property,selected_match_fg,1
+docs/themes.html,Property,shadow_color,1
+docs/themes.html,Property,shadow_offset,1
+docs/themes.html,Property,spacer_rows,1
+docs/themes.html,Property,spacing,1
+docs/themes.html,Property,speed,1
+docs/themes.html,Property,tab_height,1
+docs/themes.html,Property,tab_min_width,1
+docs/themes.html,Property,tab_overlap,1
+docs/themes.html,Property,tab_width,1
+docs/themes.html,Property,target,1
+docs/themes.html,Property,tint_index,2
+docs/themes.html,Property,tint_modifier,2
+docs/themes.html,Property,top_shadow,1
+docs/themes.html,Property,top_shadow_size,1
+docs/themes.html,Property,track_color,1
+docs/themes.html,Section,Attributes,1
+docs/themes.html,Section,Colors,1
+docs/themes.html,Section,Customization,1
+docs/themes.html,Section,Elements,1
+docs/themes.html,Section,Example,1
+docs/themes.html,Section,General Information,1
+docs/themes.html,Section,Properties,1
+docs/themes.html,Section,Settings,1
+docs/themes.html,Section,Terminology,1
+docs/themes.html,Section,Variables,1
+docs/themes.html,Setting,overlay_scroll_bars,1

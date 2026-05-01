@@ -1,0 +1,1506 @@
+Path,Type,Name,Count
+docs/api_environments.html,Guide,API Environments,1
+docs/api_environments.html,Section,Modules,1
+docs/api_environments.html,Section,Overview,1
+docs/api_environments.html,Section,Pre-Installed Packages,1
+docs/api_environments.html,Section,Python Version,1
+docs/api_reference.html,Attribute,sublime.AutoCompleteFlags.INHIBIT_EXPLICIT_COMPLETIONS,1
+docs/api_reference.html,Attribute,sublime.AutoCompleteFlags.INHIBIT_WORD_COMPLETIONS,1
+docs/api_reference.html,Attribute,sublime.AutoCompleteFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.CompletionItem.annotation,1
+docs/api_reference.html,Attribute,sublime.CompletionItem.completion,1
+docs/api_reference.html,Attribute,sublime.CompletionItem.completion_format,1
+docs/api_reference.html,Attribute,sublime.CompletionItem.kind,1
+docs/api_reference.html,Attribute,sublime.CompletionItem.trigger,1
+docs/api_reference.html,Attribute,sublime.ContextStackFrame.context_name,1
+docs/api_reference.html,Attribute,sublime.ContextStackFrame.source_file,1
+docs/api_reference.html,Attribute,sublime.ContextStackFrame.source_location,1
+docs/api_reference.html,Attribute,sublime.DialogResult.CANCEL,1
+docs/api_reference.html,Attribute,sublime.DialogResult.NO,1
+docs/api_reference.html,Attribute,sublime.DialogResult.YES,1
+docs/api_reference.html,Attribute,sublime.FindFlags.IGNORECASE,1
+docs/api_reference.html,Attribute,sublime.FindFlags.LITERAL,1
+docs/api_reference.html,Attribute,sublime.FindFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.HistoricPosition.col,1
+docs/api_reference.html,Attribute,sublime.HistoricPosition.pt,1
+docs/api_reference.html,Attribute,sublime.HistoricPosition.row,1
+docs/api_reference.html,Attribute,sublime.HoverZone.GUTTER,1
+docs/api_reference.html,Attribute,sublime.HoverZone.MARGIN,1
+docs/api_reference.html,Attribute,sublime.HoverZone.TEXT,1
+docs/api_reference.html,Attribute,sublime.KindId.AMBIGUOUS,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_BLUISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_CYANISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_DARK,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_GREENISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_LIGHT,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_ORANGISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_PINKISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_PURPLISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_REDISH,1
+docs/api_reference.html,Attribute,sublime.KindId.COLOR_YELLOWISH,1
+docs/api_reference.html,Attribute,sublime.KindId.FUNCTION,1
+docs/api_reference.html,Attribute,sublime.KindId.KEYWORD,1
+docs/api_reference.html,Attribute,sublime.KindId.MARKUP,1
+docs/api_reference.html,Attribute,sublime.KindId.NAMESPACE,1
+docs/api_reference.html,Attribute,sublime.KindId.NAVIGATION,1
+docs/api_reference.html,Attribute,sublime.KindId.SNIPPET,1
+docs/api_reference.html,Attribute,sublime.KindId.TYPE,1
+docs/api_reference.html,Attribute,sublime.KindId.VARIABLE,1
+docs/api_reference.html,Attribute,sublime.ListInputItem.annotation,1
+docs/api_reference.html,Attribute,sublime.ListInputItem.details,1
+docs/api_reference.html,Attribute,sublime.ListInputItem.kind,1
+docs/api_reference.html,Attribute,sublime.ListInputItem.text,1
+docs/api_reference.html,Attribute,sublime.ListInputItem.value,1
+docs/api_reference.html,Attribute,sublime.NewFileFlags.ENCODED_POSITION,1
+docs/api_reference.html,Attribute,sublime.NewFileFlags.FORCE_CLONE,1
+docs/api_reference.html,Attribute,sublime.NewFileFlags.FORCE_GROUP,1
+docs/api_reference.html,Attribute,sublime.NewFileFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.NewFileFlags.TRANSIENT,1
+docs/api_reference.html,Attribute,sublime.Phantom.content,1
+docs/api_reference.html,Attribute,sublime.Phantom.layout,1
+docs/api_reference.html,Attribute,sublime.Phantom.on_navigate,1
+docs/api_reference.html,Attribute,sublime.Phantom.region,1
+docs/api_reference.html,Attribute,sublime.PhantomLayout.BELOW,1
+docs/api_reference.html,Attribute,sublime.PhantomLayout.BLOCK,1
+docs/api_reference.html,Attribute,sublime.PhantomLayout.INLINE,1
+docs/api_reference.html,Attribute,sublime.PhantomSet.key,1
+docs/api_reference.html,Attribute,sublime.PhantomSet.view,1
+docs/api_reference.html,Attribute,sublime.PointClassification.EMPTY_LINE,1
+docs/api_reference.html,Attribute,sublime.PointClassification.LINE_END,1
+docs/api_reference.html,Attribute,sublime.PointClassification.LINE_START,1
+docs/api_reference.html,Attribute,sublime.PointClassification.NONE,1
+docs/api_reference.html,Attribute,sublime.PointClassification.PUNCTUATION_END,1
+docs/api_reference.html,Attribute,sublime.PointClassification.PUNCTUATION_START,1
+docs/api_reference.html,Attribute,sublime.PointClassification.SUB_WORD_END,1
+docs/api_reference.html,Attribute,sublime.PointClassification.SUB_WORD_START,1
+docs/api_reference.html,Attribute,sublime.PointClassification.WORD_END,1
+docs/api_reference.html,Attribute,sublime.PointClassification.WORD_START,1
+docs/api_reference.html,Attribute,sublime.PopupFlags.COOPERATE_WITH_AUTO_COMPLETE,1
+docs/api_reference.html,Attribute,sublime.PopupFlags.HIDE_ON_MOUSE_MOVE,1
+docs/api_reference.html,Attribute,sublime.PopupFlags.HIDE_ON_MOUSE_MOVE_AWAY,1
+docs/api_reference.html,Attribute,sublime.PopupFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.EQUAL,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.NOT_EQUAL,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.NOT_REGEX_CONTAINS,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.NOT_REGEX_MATCH,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.REGEX_CONTAINS,1
+docs/api_reference.html,Attribute,sublime.QueryOperator.REGEX_MATCH,1
+docs/api_reference.html,Attribute,sublime.QuickPanelFlags.KEEP_OPEN_ON_FOCUS_LOST,1
+docs/api_reference.html,Attribute,sublime.QuickPanelFlags.MONOSPACE_FONT,1
+docs/api_reference.html,Attribute,sublime.QuickPanelFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.QuickPanelItem.annotation,1
+docs/api_reference.html,Attribute,sublime.QuickPanelItem.details,1
+docs/api_reference.html,Attribute,sublime.QuickPanelItem.kind,1
+docs/api_reference.html,Attribute,sublime.QuickPanelItem.trigger,1
+docs/api_reference.html,Attribute,sublime.Region.a,1
+docs/api_reference.html,Attribute,sublime.Region.b,1
+docs/api_reference.html,Attribute,sublime.Region.xpos,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_EMPTY,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_EMPTY_AS_OVERWRITE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_NO_FILL,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_NO_OUTLINE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_SOLID_UNDERLINE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_SQUIGGLY_UNDERLINE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.DRAW_STIPPLED_UNDERLINE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.HIDDEN,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.HIDE_ON_MINIMAP,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.NONE,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.NO_UNDO,1
+docs/api_reference.html,Attribute,sublime.RegionFlags.PERSISTENT,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.col,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.display_name,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.kind,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.path,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.row,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.syntax,1
+docs/api_reference.html,Attribute,sublime.SymbolLocation.type,1
+docs/api_reference.html,Attribute,sublime.SymbolRegion.kind,1
+docs/api_reference.html,Attribute,sublime.SymbolRegion.name,1
+docs/api_reference.html,Attribute,sublime.SymbolRegion.region,1
+docs/api_reference.html,Attribute,sublime.SymbolRegion.syntax,1
+docs/api_reference.html,Attribute,sublime.SymbolRegion.type,1
+docs/api_reference.html,Attribute,sublime.Syntax.hidden,1
+docs/api_reference.html,Attribute,sublime.Syntax.name,1
+docs/api_reference.html,Attribute,sublime.Syntax.path,1
+docs/api_reference.html,Attribute,sublime.Syntax.scope,1
+docs/api_reference.html,Attribute,sublime.TextChange.a,1
+docs/api_reference.html,Attribute,sublime.TextChange.b,1
+docs/api_reference.html,Attribute,sublime.TextChange.str,1
+docs/api_reference.html,Attribute,sublime_plugin.TextCommand.view,1
+docs/api_reference.html,Attribute,sublime_plugin.WindowCommand.window,1
+docs/api_reference.html,Class,sublime.AutoCompleteFlags,1
+docs/api_reference.html,Class,sublime.Buffer,1
+docs/api_reference.html,Class,sublime.CompletionFormat,1
+docs/api_reference.html,Class,sublime.CompletionItem,1
+docs/api_reference.html,Class,sublime.CompletionList,1
+docs/api_reference.html,Class,sublime.ContextStackFrame,1
+docs/api_reference.html,Class,sublime.DialogResult,1
+docs/api_reference.html,Class,sublime.Edit,1
+docs/api_reference.html,Class,sublime.FindFlags,1
+docs/api_reference.html,Class,sublime.HistoricPosition,1
+docs/api_reference.html,Class,sublime.HoverZone,1
+docs/api_reference.html,Class,sublime.Html,1
+docs/api_reference.html,Class,sublime.HtmlSheet,1
+docs/api_reference.html,Class,sublime.ImageSheet,1
+docs/api_reference.html,Class,sublime.KindId,1
+docs/api_reference.html,Class,sublime.ListInputItem,1
+docs/api_reference.html,Class,sublime.NewFileFlags,1
+docs/api_reference.html,Class,sublime.Phantom,1
+docs/api_reference.html,Class,sublime.PhantomLayout,1
+docs/api_reference.html,Class,sublime.PhantomSet,1
+docs/api_reference.html,Class,sublime.PointClassification,1
+docs/api_reference.html,Class,sublime.PopupFlags,1
+docs/api_reference.html,Class,sublime.QueryOperator,1
+docs/api_reference.html,Class,sublime.QuickPanelFlags,1
+docs/api_reference.html,Class,sublime.QuickPanelItem,1
+docs/api_reference.html,Class,sublime.Region,1
+docs/api_reference.html,Class,sublime.RegionFlags,1
+docs/api_reference.html,Class,sublime.Selection,1
+docs/api_reference.html,Class,sublime.Settings,1
+docs/api_reference.html,Class,sublime.Sheet,1
+docs/api_reference.html,Class,sublime.SymbolLocation,1
+docs/api_reference.html,Class,sublime.SymbolRegion,1
+docs/api_reference.html,Class,sublime.SymbolSource,1
+docs/api_reference.html,Class,sublime.SymbolType,1
+docs/api_reference.html,Class,sublime.Syntax,1
+docs/api_reference.html,Class,sublime.TextChange,1
+docs/api_reference.html,Class,sublime.TextSheet,1
+docs/api_reference.html,Class,sublime.View,1
+docs/api_reference.html,Class,sublime.Window,1
+docs/api_reference.html,Class,sublime_plugin.ApplicationCommand,1
+docs/api_reference.html,Class,sublime_plugin.BackInputHandler,1
+docs/api_reference.html,Class,sublime_plugin.Command,1
+docs/api_reference.html,Class,sublime_plugin.CommandInputHandler,1
+docs/api_reference.html,Class,sublime_plugin.EventListener,1
+docs/api_reference.html,Class,sublime_plugin.ListInputHandler,1
+docs/api_reference.html,Class,sublime_plugin.TextChangeListener,1
+docs/api_reference.html,Class,sublime_plugin.TextCommand,1
+docs/api_reference.html,Class,sublime_plugin.TextInputHandler,1
+docs/api_reference.html,Class,sublime_plugin.ViewEventListener,1
+docs/api_reference.html,Class,sublime_plugin.WindowCommand,1
+docs/api_reference.html,Exception,sublime.FileTooLargeError,1
+docs/api_reference.html,Function,sublime.active_window,1
+docs/api_reference.html,Function,sublime.arch,1
+docs/api_reference.html,Function,sublime.cache_path,1
+docs/api_reference.html,Function,sublime.channel,1
+docs/api_reference.html,Function,sublime.decode_value,1
+docs/api_reference.html,Function,sublime.encode_value,1
+docs/api_reference.html,Function,sublime.error_message,1
+docs/api_reference.html,Function,sublime.executable_hash,1
+docs/api_reference.html,Function,sublime.executable_path,1
+docs/api_reference.html,Function,sublime.expand_variables,1
+docs/api_reference.html,Function,sublime.find_resources,1
+docs/api_reference.html,Function,sublime.find_syntax_by_name,1
+docs/api_reference.html,Function,sublime.find_syntax_by_scope,1
+docs/api_reference.html,Function,sublime.find_syntax_for_file,1
+docs/api_reference.html,Function,sublime.get_clipboard,1
+docs/api_reference.html,Function,sublime.get_macro,1
+docs/api_reference.html,Function,sublime.installed_packages_path,1
+docs/api_reference.html,Function,sublime.list_syntaxes,1
+docs/api_reference.html,Function,sublime.load_binary_resource,1
+docs/api_reference.html,Function,sublime.load_resource,1
+docs/api_reference.html,Function,sublime.load_settings,1
+docs/api_reference.html,Function,sublime.log_build_systems,1
+docs/api_reference.html,Function,sublime.log_commands,1
+docs/api_reference.html,Function,sublime.log_indexing,1
+docs/api_reference.html,Function,sublime.log_input,1
+docs/api_reference.html,Function,sublime.log_result_regex,1
+docs/api_reference.html,Function,sublime.message_dialog,1
+docs/api_reference.html,Function,sublime.ok_cancel_dialog,1
+docs/api_reference.html,Function,sublime.packages_path,1
+docs/api_reference.html,Function,sublime.platform,1
+docs/api_reference.html,Function,sublime.run_command,1
+docs/api_reference.html,Function,sublime.save_settings,1
+docs/api_reference.html,Function,sublime.score_selector,1
+docs/api_reference.html,Function,sublime.set_clipboard,1
+docs/api_reference.html,Function,sublime.set_timeout,1
+docs/api_reference.html,Function,sublime.set_timeout_async,1
+docs/api_reference.html,Function,sublime.status_message,1
+docs/api_reference.html,Function,sublime.syntax_from_path,1
+docs/api_reference.html,Function,sublime.version,1
+docs/api_reference.html,Function,sublime.windows,1
+docs/api_reference.html,Function,sublime.yes_no_cancel_dialog,1
+docs/api_reference.html,Guide,API Reference,1
+docs/api_reference.html,Method,sublime.Buffer.primary_view,1
+docs/api_reference.html,Method,sublime.Buffer.views,1
+docs/api_reference.html,Method,sublime.CompletionItem.command_completion,1
+docs/api_reference.html,Method,sublime.CompletionItem.snippet_completion,1
+docs/api_reference.html,Method,sublime.CompletionList.__init__,1
+docs/api_reference.html,Method,sublime.CompletionList.set_completions,1
+docs/api_reference.html,Method,sublime.HtmlSheet.set_contents,1
+docs/api_reference.html,Method,sublime.Phantom.to_tuple,1
+docs/api_reference.html,Method,sublime.PhantomSet.__init__,1
+docs/api_reference.html,Method,sublime.PhantomSet.update,1
+docs/api_reference.html,Method,sublime.Region.__len__,1
+docs/api_reference.html,Method,sublime.Region.begin,1
+docs/api_reference.html,Method,sublime.Region.contains,1
+docs/api_reference.html,Method,sublime.Region.cover,1
+docs/api_reference.html,Method,sublime.Region.empty,1
+docs/api_reference.html,Method,sublime.Region.end,1
+docs/api_reference.html,Method,sublime.Region.intersection,1
+docs/api_reference.html,Method,sublime.Region.intersects,1
+docs/api_reference.html,Method,sublime.Region.size,1
+docs/api_reference.html,Method,sublime.Selection.__delitem__,1
+docs/api_reference.html,Method,sublime.Selection.__getitem__,1
+docs/api_reference.html,Method,sublime.Selection.__len__,1
+docs/api_reference.html,Method,sublime.Selection.add,1
+docs/api_reference.html,Method,sublime.Selection.add_all,1
+docs/api_reference.html,Method,sublime.Selection.clear,1
+docs/api_reference.html,Method,sublime.Selection.contains,1
+docs/api_reference.html,Method,sublime.Selection.is_valid,1
+docs/api_reference.html,Method,sublime.Selection.subtract,1
+docs/api_reference.html,Method,sublime.Settings.add_on_change,1
+docs/api_reference.html,Method,sublime.Settings.clear_on_change,1
+docs/api_reference.html,Method,sublime.Settings.erase,1
+docs/api_reference.html,Method,sublime.Settings.get,1
+docs/api_reference.html,Method,sublime.Settings.has,1
+docs/api_reference.html,Method,sublime.Settings.set,1
+docs/api_reference.html,Method,sublime.Sheet.id,1
+docs/api_reference.html,Method,sublime.Sheet.is_selected,1
+docs/api_reference.html,Method,sublime.Sheet.name,1
+docs/api_reference.html,Method,sublime.Sheet.set_name,1
+docs/api_reference.html,Method,sublime.Sheet.view,1
+docs/api_reference.html,Method,sublime.Sheet.window,1
+docs/api_reference.html,Method,sublime.View.add_regions,1
+docs/api_reference.html,Method,sublime.View.assign_syntax,1
+docs/api_reference.html,Method,sublime.View.buffer,1
+docs/api_reference.html,Method,sublime.View.buffer_id,1
+docs/api_reference.html,Method,sublime.View.change_count,1
+docs/api_reference.html,Method,sublime.View.change_id,1
+docs/api_reference.html,Method,sublime.View.classify,1
+docs/api_reference.html,Method,sublime.View.clones,1
+docs/api_reference.html,Method,sublime.View.close,1
+docs/api_reference.html,Method,sublime.View.command_history,1
+docs/api_reference.html,Method,sublime.View.em_width,1
+docs/api_reference.html,Method,sublime.View.encoding,1
+docs/api_reference.html,Method,sublime.View.erase,1
+docs/api_reference.html,Method,sublime.View.erase_regions,1
+docs/api_reference.html,Method,sublime.View.erase_status,1
+docs/api_reference.html,Method,sublime.View.expand_by_class,1
+docs/api_reference.html,Method,sublime.View.expand_to_scope,1
+docs/api_reference.html,Method,sublime.View.extract_completions,1
+docs/api_reference.html,Method,sublime.View.extract_scope,1
+docs/api_reference.html,Method,sublime.View.extract_tokens_with_scopes,1
+docs/api_reference.html,Method,sublime.View.file_name,1
+docs/api_reference.html,Method,sublime.View.find,1
+docs/api_reference.html,Method,sublime.View.find_all,1
+docs/api_reference.html,Method,sublime.View.find_by_class,1
+docs/api_reference.html,Method,sublime.View.find_by_selector,1
+docs/api_reference.html,Method,sublime.View.fold,1
+docs/api_reference.html,Method,sublime.View.folded_regions,1
+docs/api_reference.html,Method,sublime.View.full_line,1
+docs/api_reference.html,Method,sublime.View.get_regions,1
+docs/api_reference.html,Method,sublime.View.get_status,1
+docs/api_reference.html,Method,sublime.View.get_symbols,1
+docs/api_reference.html,Method,sublime.View.hide_popup,1
+docs/api_reference.html,Method,sublime.View.id,1
+docs/api_reference.html,Method,sublime.View.insert,1
+docs/api_reference.html,Method,sublime.View.is_auto_complete_visible,1
+docs/api_reference.html,Method,sublime.View.is_dirty,1
+docs/api_reference.html,Method,sublime.View.is_folded,1
+docs/api_reference.html,Method,sublime.View.is_loading,1
+docs/api_reference.html,Method,sublime.View.is_popup_visible,1
+docs/api_reference.html,Method,sublime.View.is_primary,1
+docs/api_reference.html,Method,sublime.View.is_read_only,1
+docs/api_reference.html,Method,sublime.View.is_scratch,1
+docs/api_reference.html,Method,sublime.View.is_valid,1
+docs/api_reference.html,Method,sublime.View.layout_extent,1
+docs/api_reference.html,Method,sublime.View.layout_to_text,1
+docs/api_reference.html,Method,sublime.View.layout_to_window,1
+docs/api_reference.html,Method,sublime.View.line,1
+docs/api_reference.html,Method,sublime.View.line_endings,1
+docs/api_reference.html,Method,sublime.View.line_height,1
+docs/api_reference.html,Method,sublime.View.lines,1
+docs/api_reference.html,Method,sublime.View.match_selector,1
+docs/api_reference.html,Method,sublime.View.meta_info,1
+docs/api_reference.html,Method,sublime.View.name,1
+docs/api_reference.html,Method,sublime.View.overwrite_status,1
+docs/api_reference.html,Method,sublime.View.replace,1
+docs/api_reference.html,Method,sublime.View.reset_reference_document,1
+docs/api_reference.html,Method,sublime.View.retarget,1
+docs/api_reference.html,Method,sublime.View.rowcol,1
+docs/api_reference.html,Method,sublime.View.run_command,1
+docs/api_reference.html,Method,sublime.View.scope_name,1
+docs/api_reference.html,Method,sublime.View.score_selector,1
+docs/api_reference.html,Method,sublime.View.sel,1
+docs/api_reference.html,Method,sublime.View.set_encoding,1
+docs/api_reference.html,Method,sublime.View.set_line_endings,1
+docs/api_reference.html,Method,sublime.View.set_name,1
+docs/api_reference.html,Method,sublime.View.set_overwrite_status,1
+docs/api_reference.html,Method,sublime.View.set_read_only,1
+docs/api_reference.html,Method,sublime.View.set_reference_document,1
+docs/api_reference.html,Method,sublime.View.set_scratch,1
+docs/api_reference.html,Method,sublime.View.set_status,1
+docs/api_reference.html,Method,sublime.View.set_syntax_file,1
+docs/api_reference.html,Method,sublime.View.set_viewport_position,1
+docs/api_reference.html,Method,sublime.View.settings,1
+docs/api_reference.html,Method,sublime.View.show,1
+docs/api_reference.html,Method,sublime.View.show_at_center,1
+docs/api_reference.html,Method,sublime.View.show_popup,1
+docs/api_reference.html,Method,sublime.View.show_popup_menu,1
+docs/api_reference.html,Method,sublime.View.size,1
+docs/api_reference.html,Method,sublime.View.split_by_newlines,1
+docs/api_reference.html,Method,sublime.View.style_for_scope,1
+docs/api_reference.html,Method,sublime.View.substr,1
+docs/api_reference.html,Method,sublime.View.symbols,1
+docs/api_reference.html,Method,sublime.View.syntax,1
+docs/api_reference.html,Method,sublime.View.text_point,1
+docs/api_reference.html,Method,sublime.View.text_point_utf16,1
+docs/api_reference.html,Method,sublime.View.text_point_utf8,1
+docs/api_reference.html,Method,sublime.View.text_to_layout,1
+docs/api_reference.html,Method,sublime.View.text_to_window,1
+docs/api_reference.html,Method,sublime.View.transform_region_from,1
+docs/api_reference.html,Method,sublime.View.unfold,1
+docs/api_reference.html,Method,sublime.View.update_popup,1
+docs/api_reference.html,Method,sublime.View.viewport_extent,1
+docs/api_reference.html,Method,sublime.View.viewport_position,1
+docs/api_reference.html,Method,sublime.View.visible_region,1
+docs/api_reference.html,Method,sublime.View.window,1
+docs/api_reference.html,Method,sublime.View.window_to_layout,1
+docs/api_reference.html,Method,sublime.View.window_to_text,1
+docs/api_reference.html,Method,sublime.View.word,1
+docs/api_reference.html,Method,sublime.Window.active_group,1
+docs/api_reference.html,Method,sublime.Window.active_panel,1
+docs/api_reference.html,Method,sublime.Window.active_sheet,1
+docs/api_reference.html,Method,sublime.Window.active_sheet_in_group,1
+docs/api_reference.html,Method,sublime.Window.active_view,1
+docs/api_reference.html,Method,sublime.Window.active_view_in_group,1
+docs/api_reference.html,Method,sublime.Window.bring_to_front,1
+docs/api_reference.html,Method,sublime.Window.create_io_panel,1
+docs/api_reference.html,Method,sublime.Window.create_output_panel,1
+docs/api_reference.html,Method,sublime.Window.destroy_output_panel,1
+docs/api_reference.html,Method,sublime.Window.extract_variables,1
+docs/api_reference.html,Method,sublime.Window.file_history,1
+docs/api_reference.html,Method,sublime.Window.find_io_panel,1
+docs/api_reference.html,Method,sublime.Window.find_open_file,1
+docs/api_reference.html,Method,sublime.Window.find_output_panel,1
+docs/api_reference.html,Method,sublime.Window.focus_group,1
+docs/api_reference.html,Method,sublime.Window.focus_sheet,1
+docs/api_reference.html,Method,sublime.Window.focus_view,1
+docs/api_reference.html,Method,sublime.Window.folders,1
+docs/api_reference.html,Method,sublime.Window.get_layout,1
+docs/api_reference.html,Method,sublime.Window.get_output_panel,1
+docs/api_reference.html,Method,sublime.Window.get_sheet_index,1
+docs/api_reference.html,Method,sublime.Window.get_tabs_visible,1
+docs/api_reference.html,Method,sublime.Window.get_view_index,1
+docs/api_reference.html,Method,sublime.Window.hwnd,1
+docs/api_reference.html,Method,sublime.Window.id,1
+docs/api_reference.html,Method,sublime.Window.is_menu_visible,1
+docs/api_reference.html,Method,sublime.Window.is_minimap_visible,1
+docs/api_reference.html,Method,sublime.Window.is_sidebar_visible,1
+docs/api_reference.html,Method,sublime.Window.is_status_bar_visible,1
+docs/api_reference.html,Method,sublime.Window.is_valid,1
+docs/api_reference.html,Method,sublime.Window.layout,1
+docs/api_reference.html,Method,sublime.Window.lookup_references_in_index,1
+docs/api_reference.html,Method,sublime.Window.lookup_references_in_open_files,1
+docs/api_reference.html,Method,sublime.Window.lookup_symbol_in_index,1
+docs/api_reference.html,Method,sublime.Window.lookup_symbol_in_open_files,1
+docs/api_reference.html,Method,sublime.Window.new_file,1
+docs/api_reference.html,Method,sublime.Window.num_groups,1
+docs/api_reference.html,Method,sublime.Window.num_sheets_in_group,1
+docs/api_reference.html,Method,sublime.Window.num_views_in_group,1
+docs/api_reference.html,Method,sublime.Window.open_file,1
+docs/api_reference.html,Method,sublime.Window.panels,1
+docs/api_reference.html,Method,sublime.Window.project_data,1
+docs/api_reference.html,Method,sublime.Window.project_file_name,1
+docs/api_reference.html,Method,sublime.Window.promote_sheet,1
+docs/api_reference.html,Method,sublime.Window.run_command,1
+docs/api_reference.html,Method,sublime.Window.set_layout,1
+docs/api_reference.html,Method,sublime.Window.set_menu_visible,1
+docs/api_reference.html,Method,sublime.Window.set_minimap_visible,1
+docs/api_reference.html,Method,sublime.Window.set_project_data,1
+docs/api_reference.html,Method,sublime.Window.set_sheet_index,1
+docs/api_reference.html,Method,sublime.Window.set_sidebar_visible,1
+docs/api_reference.html,Method,sublime.Window.set_status_bar_visible,1
+docs/api_reference.html,Method,sublime.Window.set_tabs_visible,1
+docs/api_reference.html,Method,sublime.Window.set_view_index,1
+docs/api_reference.html,Method,sublime.Window.settings,1
+docs/api_reference.html,Method,sublime.Window.sheets,1
+docs/api_reference.html,Method,sublime.Window.sheets_in_group,1
+docs/api_reference.html,Method,sublime.Window.show_input_panel,1
+docs/api_reference.html,Method,sublime.Window.show_quick_panel,1
+docs/api_reference.html,Method,sublime.Window.status_message,1
+docs/api_reference.html,Method,sublime.Window.template_settings,1
+docs/api_reference.html,Method,sublime.Window.transient_sheet_in_group,1
+docs/api_reference.html,Method,sublime.Window.transient_view_in_group,1
+docs/api_reference.html,Method,sublime.Window.views,1
+docs/api_reference.html,Method,sublime.Window.views_in_group,1
+docs/api_reference.html,Method,sublime_plugin.ApplicationCommand.run,1
+docs/api_reference.html,Method,sublime_plugin.Command.description,1
+docs/api_reference.html,Method,sublime_plugin.Command.is_checked,1
+docs/api_reference.html,Method,sublime_plugin.Command.is_enabled,1
+docs/api_reference.html,Method,sublime_plugin.Command.is_visible,1
+docs/api_reference.html,Method,sublime_plugin.Command.name,1
+docs/api_reference.html,Method,sublime_plugin.Command.run,1
+docs/api_reference.html,Method,sublime_plugin.Command.want_event,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.cancel,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.confirm,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.initial_text,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.name,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.next_input,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.placeholder,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.preview,1
+docs/api_reference.html,Method,sublime_plugin.CommandInputHandler.validate,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_activated,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_activated_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_clone,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_clone_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_close,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_deactivated,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_deactivated_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_hover,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_load,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_load_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_modified,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_modified_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_new,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_new_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_post_save,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_post_save_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_post_text_command,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_post_window_command,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_pre_close,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_pre_close_project,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_pre_save,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_pre_save_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_query_completions,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_query_context,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_selection_modified,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_selection_modified_async,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_text_command,1
+docs/api_reference.html,Method,sublime_plugin.EventListener.on_window_command,1
+docs/api_reference.html,Method,sublime_plugin.ListInputHandler.description,1
+docs/api_reference.html,Method,sublime_plugin.ListInputHandler.list_items,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.attach,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.detach,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.is_applicable,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.is_attached,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.on_reload,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.on_reload_async,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.on_revert,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.on_revert_async,1
+docs/api_reference.html,Method,sublime_plugin.TextChangeListener.on_text_changed,1
+docs/api_reference.html,Method,sublime_plugin.TextCommand.run,1
+docs/api_reference.html,Method,sublime_plugin.TextInputHandler.description,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.applies_to_primary_view_only,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.is_applicable,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_activated,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_activated_async,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_deactivated,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_deactivated_async,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_hover,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_modified,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_modified_async,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_post_text_command,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_query_completions,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_query_context,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_selection_modified,1
+docs/api_reference.html,Method,sublime_plugin.ViewEventListener.on_selection_modified_async,1
+docs/api_reference.html,Method,sublime_plugin.WindowCommand.run,1
+docs/api_reference.html,Module,sublime,1
+docs/api_reference.html,Module,sublime_plugin,1
+docs/api_reference.html,Section,General Information,1
+docs/api_reference.html,Section,sublime Module,1
+docs/api_reference.html,Section,sublime_plugin Module,1
+docs/api_reference.html,Type,sublime.CommandArgs,1
+docs/api_reference.html,Type,sublime.CompletionValue,1
+docs/api_reference.html,Type,sublime.DIP,1
+docs/api_reference.html,Type,sublime.Event,1
+docs/api_reference.html,Type,sublime.Kind,1
+docs/api_reference.html,Type,sublime.Point,1
+docs/api_reference.html,Type,sublime.Value,1
+docs/api_reference.html,Type,sublime.Vector,1
+docs/build_systems.html,Guide,Build Systems,1
+docs/build_systems.html,Option,cancel,1
+docs/build_systems.html,Option,cmd,1
+docs/build_systems.html,Option,encoding,1
+docs/build_systems.html,Option,env,1
+docs/build_systems.html,Option,file_patterns,1
+docs/build_systems.html,Option,file_regex,1
+docs/build_systems.html,Option,keyfiles,1
+docs/build_systems.html,Option,line_regex,1
+docs/build_systems.html,Option,linux,1
+docs/build_systems.html,Option,osx,1
+docs/build_systems.html,Option,path,1
+docs/build_systems.html,Option,quiet,1
+docs/build_systems.html,Option,selector,1
+docs/build_systems.html,Option,shell_cmd,1
+docs/build_systems.html,Option,syntax,1
+docs/build_systems.html,Option,target,1
+docs/build_systems.html,Option,variants,1
+docs/build_systems.html,Option,windows,1
+docs/build_systems.html,Option,word_wrap,1
+docs/build_systems.html,Option,working_dir,1
+docs/build_systems.html,Section,Advanced Example,1
+docs/build_systems.html,Section,Basic Example,1
+docs/build_systems.html,Section,Custom Options,1
+docs/build_systems.html,Section,Options,1
+docs/build_systems.html,Section,Usage,1
+docs/build_systems.html,Section,Variables,1
+docs/build_systems.html,Section,exec Target Options,1
+docs/build_systems.html,Variable,$file,1
+docs/build_systems.html,Variable,$file_base_name,1
+docs/build_systems.html,Variable,$file_extension,1
+docs/build_systems.html,Variable,$file_name,1
+docs/build_systems.html,Variable,$file_path,1
+docs/build_systems.html,Variable,$folder,1
+docs/build_systems.html,Variable,$packages,1
+docs/build_systems.html,Variable,$platform,1
+docs/build_systems.html,Variable,$project,1
+docs/build_systems.html,Variable,$project_base_name,1
+docs/build_systems.html,Variable,$project_extension,1
+docs/build_systems.html,Variable,$project_name,1
+docs/build_systems.html,Variable,$project_path,1
+docs/color_schemes.html,Function,HSL functional notation,1
+docs/color_schemes.html,Function,HSLA functional notation,1
+docs/color_schemes.html,Function,HWB functional notation,1
+docs/color_schemes.html,Function,Hex RGB,1
+docs/color_schemes.html,Function,Hex RGBA,1
+docs/color_schemes.html,Function,Named,1
+docs/color_schemes.html,Function,RGB functional notation,1
+docs/color_schemes.html,Function,RGBA functional notation,1
+docs/color_schemes.html,Function,alpha() adjuster,1
+docs/color_schemes.html,Function,blend() adjuster,1
+docs/color_schemes.html,Function,blenda() adjuster,1
+docs/color_schemes.html,Function,lightness() adjuster,1
+docs/color_schemes.html,Function,min-contrast() adjuster,1
+docs/color_schemes.html,Function,saturation() adjuster,1
+docs/color_schemes.html,Guide,Color Schemes,1
+docs/color_schemes.html,Section,Appendix: CSS Colors,1
+docs/color_schemes.html,Section,Colors,1
+docs/color_schemes.html,Section,Customization,1
+docs/color_schemes.html,Section,Example,1
+docs/color_schemes.html,Section,Global Settings,1
+docs/color_schemes.html,Section,Scope Rules,1
+docs/color_schemes.html,Section,Variables,1
+docs/color_schemes.html,Setting,accent,1
+docs/color_schemes.html,Setting,active_guide,1
+docs/color_schemes.html,Setting,background,2
+docs/color_schemes.html,Setting,bracket_contents_foreground,1
+docs/color_schemes.html,Setting,bracket_contents_options,1
+docs/color_schemes.html,Setting,brackets_foreground,1
+docs/color_schemes.html,Setting,brackets_options,1
+docs/color_schemes.html,Setting,caret,1
+docs/color_schemes.html,Setting,find_highlight,1
+docs/color_schemes.html,Setting,find_highlight_foreground,1
+docs/color_schemes.html,Setting,fold_marker,1
+docs/color_schemes.html,Setting,font_style,1
+docs/color_schemes.html,Setting,foreground,2
+docs/color_schemes.html,Setting,guide,1
+docs/color_schemes.html,Setting,gutter_foreground,1
+docs/color_schemes.html,Setting,highlight,1
+docs/color_schemes.html,Setting,inactive_selection,1
+docs/color_schemes.html,Setting,inactive_selection_foreground,1
+docs/color_schemes.html,Setting,invisibles,1
+docs/color_schemes.html,Setting,line_highlight,1
+docs/color_schemes.html,Setting,minimap_border,1
+docs/color_schemes.html,Setting,misspelling,1
+docs/color_schemes.html,Setting,name,1
+docs/color_schemes.html,Setting,phantom_css,1
+docs/color_schemes.html,Setting,popup_css,1
+docs/color_schemes.html,Setting,selection_border,1
+docs/color_schemes.html,Setting,selection_border_width,1
+docs/color_schemes.html,Setting,selection_corner_radius,1
+docs/color_schemes.html,Setting,selection_corner_style,1
+docs/color_schemes.html,Setting,selection_foreground,2
+docs/color_schemes.html,Setting,shadow,1
+docs/color_schemes.html,Setting,shadow_width,1
+docs/color_schemes.html,Setting,stack_guide,1
+docs/color_schemes.html,Setting,tags_foreground,1
+docs/color_schemes.html,Setting,tags_options,1
+docs/color_schemes.html,Value,bold,2
+docs/color_schemes.html,Value,foreground,3
+docs/color_schemes.html,Value,glow,1
+docs/color_schemes.html,Value,italic,2
+docs/color_schemes.html,Value,squiggly_underline,4
+docs/color_schemes.html,Value,stippled_underline,4
+docs/color_schemes.html,Value,underline,4
+docs/color_schemes_tmtheme.html,Guide,.tmTheme Color Schemes,1
+docs/color_schemes_tmtheme.html,Section,Appendix: X11 Colors,1
+docs/color_schemes_tmtheme.html,Section,Colors,1
+docs/color_schemes_tmtheme.html,Section,Example,1
+docs/color_schemes_tmtheme.html,Section,Global Settings,1
+docs/color_schemes_tmtheme.html,Section,Scope Styles,1
+docs/column_selection.html,Guide,Column Selection,1
+docs/column_selection.html,Section,Using the Keyboard,1
+docs/column_selection.html,Section,Using the Mouse,1
+docs/command_line.html,Guide,Command Line Interface,1
+docs/command_line.html,Section,Setup,1
+docs/command_line.html,Section,Usage,1
+docs/completions.html,Field,"""contents"" string (REQUIRED)",1
+docs/completions.html,Field,"""trigger"" string (REQUIRED)",1
+docs/completions.html,Field,contents,1
+docs/completions.html,Field,description,1
+docs/completions.html,Field,scope,1
+docs/completions.html,Field,tabTrigger,1
+docs/completions.html,Guide,Completions,1
+docs/completions.html,Section,Completion Metadata,1
+docs/completions.html,Section,Context-Aware Suggestions,1
+docs/completions.html,Section,Customization,1
+docs/completions.html,Section,Settings,1
+docs/completions.html,Section,Usage,1
+docs/completions.html,Setting,auto_complete,1
+docs/completions.html,Setting,auto_complete_commit_on_tab,1
+docs/completions.html,Setting,auto_complete_cycle,1
+docs/completions.html,Setting,auto_complete_delay,1
+docs/completions.html,Setting,auto_complete_include_snippets_when_typing,1
+docs/completions.html,Setting,auto_complete_selector,1
+docs/completions.html,Setting,auto_complete_size_limit,1
+docs/completions.html,Setting,auto_complete_triggers,1
+docs/completions.html,Setting,auto_complete_use_history,1
+docs/completions.html,Setting,auto_complete_with_fields,1
+docs/completions.html,Setting,contents,1
+docs/completions.html,Setting,tab_completion,1
+docs/completions.html,Setting,trigger,1
+docs/completions.html,Value,"""ambiguous""",1
+docs/completions.html,Value,"""function""",1
+docs/completions.html,Value,"""keyword""",1
+docs/completions.html,Value,"""markup""",1
+docs/completions.html,Value,"""namespace""",1
+docs/completions.html,Value,"""navigation""",1
+docs/completions.html,Value,"""snippet""",1
+docs/completions.html,Value,"""type""",1
+docs/completions.html,Value,"""variable""",1
+docs/completions.html,Value,Function,1
+docs/completions.html,Value,Keyword,1
+docs/completions.html,Value,Markup,1
+docs/completions.html,Value,Namespace,1
+docs/completions.html,Value,Navigation,1
+docs/completions.html,Value,Snippet,1
+docs/completions.html,Value,Type,1
+docs/completions.html,Value,Variable,1
+docs/completions.html,Variable,$SELECTION,1
+docs/completions.html,Variable,$TM_CURRENT_LINE,1
+docs/completions.html,Variable,$TM_CURRENT_WORD,1
+docs/completions.html,Variable,$TM_DIRECTORY,1
+docs/completions.html,Variable,$TM_FILENAME,1
+docs/completions.html,Variable,$TM_FILEPATH,1
+docs/completions.html,Variable,$TM_LINE_INDEX,1
+docs/completions.html,Variable,$TM_LINE_NUMBER,1
+docs/completions.html,Variable,$TM_SCOPE,1
+docs/completions.html,Variable,$TM_SELECTED_TEXT,1
+docs/completions.html,Variable,$TM_SOFT_TABS,1
+docs/completions.html,Variable,$TM_TAB_SIZE,1
+docs/distraction_free.html,File,Packages/Default/Distraction Free.sublime-settings,1
+docs/distraction_free.html,File,Packages/User/Distraction Free.sublime-settings,1
+docs/distraction_free.html,Guide,Distraction Free Mode,1
+docs/distraction_free.html,Section,Customization,1
+docs/distraction_free.html,Setting,"""draw_centered""",1
+docs/distraction_free.html,Setting,"""gutter""",1
+docs/distraction_free.html,Setting,"""line_numbers""",1
+docs/distraction_free.html,Setting,"""scroll_past_end""",1
+docs/distraction_free.html,Setting,"""word_wrap""",1
+docs/distraction_free.html,Setting,"""wrap_width""",1
+docs/file_patterns.html,Guide,File Patterns,1
+docs/file_patterns.html,Section,Basic Syntax,1
+docs/file_patterns.html,Section,Path Rules,1
+docs/file_patterns.html,Section,Uses,1
+docs/file_patterns.html,Setting,"""binary_file_patterns""",1
+docs/file_patterns.html,Setting,"""file_exclude_patterns""",1
+docs/file_patterns.html,Setting,"""file_include_patterns""",1
+docs/file_patterns.html,Setting,"""folder_exclude_patterns""",1
+docs/file_patterns.html,Setting,"""folder_include_patterns""",1
+docs/file_patterns.html,Setting,"""index_exclude_patterns""",1
+docs/file_patterns.html,Setting,"""index_include_patterns""",1
+docs/font.html,Guide,Font Settings,1
+docs/git_integration.html,Attribute,Missing,1
+docs/git_integration.html,Attribute,Modified,1
+docs/git_integration.html,Attribute,Staged Addition,1
+docs/git_integration.html,Attribute,Staged Deletion,1
+docs/git_integration.html,Attribute,Staged Modification,1
+docs/git_integration.html,Attribute,Unmerged,1
+docs/git_integration.html,Attribute,Untracked,1
+docs/git_integration.html,Command,"""head"" – diff against the file at HEAD",1
+docs/git_integration.html,Command,"""index"" – diff against the Git index",1
+docs/git_integration.html,Command,Blame File…,2
+docs/git_integration.html,Command,Diff Markers,1
+docs/git_integration.html,Command,File History…,2
+docs/git_integration.html,Command,Folder History…,2
+docs/git_integration.html,Command,Line History…,1
+docs/git_integration.html,Command,Open Git Repository…,3
+docs/git_integration.html,Command,Settings,1
+docs/git_integration.html,Command,Side Bar,1
+docs/git_integration.html,Command,Status Bar,1
+docs/git_integration.html,Command,Sublime Merge Integration,1
+docs/git_integration.html,Command,Sublime Merge: Blame File,1
+docs/git_integration.html,Command,Sublime Merge: File History,1
+docs/git_integration.html,Command,Sublime Merge: Folder History,1
+docs/git_integration.html,Command,Sublime Merge: Open Repository,1
+docs/git_integration.html,Guide,Git Integration,1
+docs/git_integration.html,Section,Diff Markers,1
+docs/git_integration.html,Section,Settings,1
+docs/git_integration.html,Section,Side Bar,1
+docs/git_integration.html,Section,Status Bar,1
+docs/git_integration.html,Section,Sublime Merge Integration,1
+docs/git_integration.html,Setting,git_diff_target,1
+docs/git_integration.html,Setting,show_git_status,1
+docs/gpu_rendering.html,Guide,GPU Rendering,1
+docs/gpu_rendering.html,Section,Diagnostics,1
+docs/gpu_rendering.html,Section,Setting,1
+docs/incremental_diff.html,Guide,Incremental Diff,1
+docs/incremental_diff.html,Section,Diff Markers,1
+docs/incremental_diff.html,Section,Inline Diffs,1
+docs/incremental_diff.html,Section,Navigation,1
+docs/incremental_diff.html,Section,Reverting,1
+docs/incremental_diff.html,Section,Settings,1
+docs/incremental_diff.html,Setting,git_diff_target,1
+docs/incremental_diff.html,Setting,mini_diff,1
+docs/incremental_diff.html,Tag,diff.deleted,1
+docs/incremental_diff.html,Tag,diff.deleted.char,1
+docs/incremental_diff.html,Tag,diff.inserted,1
+docs/incremental_diff.html,Tag,diff.inserted.char,1
+docs/indentation.html,Guide,Indentation Settings,1
+docs/indentation.html,Section,Automatic Indentation Settings,1
+docs/indentation.html,Section,Basic Settings,1
+docs/indentation.html,Section,Converting Between Tabs and Spaces,1
+docs/indentation.html,Section,Indentation Detection,1
+docs/indentation.html,Setting,auto_indent,1
+docs/indentation.html,Setting,detect_indentation,1
+docs/indentation.html,Setting,indent_to_bracket,1
+docs/indentation.html,Setting,smart_indent,1
+docs/indentation.html,Setting,tab_size,1
+docs/indentation.html,Setting,translate_tabs_to_spaces,1
+docs/indentation.html,Setting,trim_automatic_white_space,1
+docs/indentation.html,Setting,use_tab_stops,1
+docs/index.html,Guide,Documentation,1
+docs/index.html,Section,Customization,1
+docs/index.html,Section,Miscellaneous,1
+docs/index.html,Section,Package Development,1
+docs/index.html,Section,Usage,1
+docs/indexing.html,Guide,Indexing,1
+docs/indexing.html,Section,Features,1
+docs/indexing.html,Section,Settings,1
+docs/indexing.html,Section,Status,1
+docs/indexing.html,Setting,index_exclude_patterns,1
+docs/indexing.html,Setting,index_files,1
+docs/indexing.html,Setting,index_workers,1
+docs/indexing.html,Setting,show_definitions,1
+docs/key_bindings.html,Filter,"""auto_complete_visible""",1
+docs/key_bindings.html,Filter,"""eol_selector""",1
+docs/key_bindings.html,Filter,"""following_text""",1
+docs/key_bindings.html,Filter,"""has_next_field""",1
+docs/key_bindings.html,Filter,"""has_prev_field""",1
+docs/key_bindings.html,Filter,"""is_recording_macro""",1
+docs/key_bindings.html,Filter,"""last_command""",1
+docs/key_bindings.html,Filter,"""last_modifying_command""",1
+docs/key_bindings.html,Filter,"""num_selections""",1
+docs/key_bindings.html,Filter,"""overlay_visible""",1
+docs/key_bindings.html,Filter,"""panel""",1
+docs/key_bindings.html,Filter,"""panel_has_focus""",1
+docs/key_bindings.html,Filter,"""panel_visible""",1
+docs/key_bindings.html,Filter,"""popup_visible""",1
+docs/key_bindings.html,Filter,"""preceding_text""",1
+docs/key_bindings.html,Filter,"""read_only""",1
+docs/key_bindings.html,Filter,"""selection_empty""",1
+docs/key_bindings.html,Filter,"""selector""",1
+docs/key_bindings.html,Filter,"""text""",1
+docs/key_bindings.html,Guide,Key Bindings,1
+docs/key_bindings.html,Section,Bindings,1
+docs/key_bindings.html,Section,Example,1
+docs/key_bindings.html,Section,User Bindings,1
+docs/key_bindings.html,Setting,"""args"" Key",1
+docs/key_bindings.html,Setting,"""command"" Key",1
+docs/key_bindings.html,Setting,"""context"" Key",1
+docs/key_bindings.html,Setting,"""keys"" Key",1
+docs/ligatures.html,Guide,Ligatures,1
+docs/ligatures.html,Option,"""dlig""",1
+docs/ligatures.html,Option,"""no_calt""",1
+docs/ligatures.html,Option,"""no_clig""",1
+docs/ligatures.html,Option,"""no_liga""",1
+docs/ligatures.html,Section,Troubleshooting,1
+docs/ligatures.html,Section,Usage,1
+docs/linux_repositories.html,Guide,Linux Package Manager Repositories,1
+docs/linux_repositories.html,Section,apt,1
+docs/linux_repositories.html,Section,dnf,1
+docs/linux_repositories.html,Section,pacman,1
+docs/linux_repositories.html,Section,yum,1
+docs/linux_repositories.html,Section,zypper,1
+docs/menus.html,File,Context.sublime-menu,1
+docs/menus.html,File,Find in Files.sublime-menu,1
+docs/menus.html,File,Main.sublime-menu,1
+docs/menus.html,File,Side Bar Mount Point.sublime-menu,1
+docs/menus.html,File,Side Bar.sublime-menu,1
+docs/menus.html,File,Tab Context.sublime-menu,1
+docs/menus.html,File,Widget Context.sublime-menu,1
+docs/menus.html,Guide,Menus,1
+docs/menus.html,Section,Adding to Submenus,1
+docs/menus.html,Section,Available Menus,1
+docs/menus.html,Section,Customization,1
+docs/menus.html,Section,Entries,1
+docs/menus.html,Section,Example,1
+docs/menus.html,Setting,args,1
+docs/menus.html,Setting,caption,1
+docs/menus.html,Setting,children,1
+docs/menus.html,Setting,command,1
+docs/menus.html,Setting,mnemonic,1
+docs/menus.html,Setting,platform,1
+docs/minihtml.html,Attribute,class,1
+docs/minihtml.html,Attribute,href,1
+docs/minihtml.html,Attribute,style,1
+docs/minihtml.html,Attribute,title,1
+docs/minihtml.html,Element,<a>,2
+docs/minihtml.html,Element,<b>,1
+docs/minihtml.html,Element,<big>,1
+docs/minihtml.html,Element,<body>,1
+docs/minihtml.html,Element,<code>,1
+docs/minihtml.html,Element,<div>,1
+docs/minihtml.html,Element,<em>,1
+docs/minihtml.html,Element,<h1>,1
+docs/minihtml.html,Element,<h2>,1
+docs/minihtml.html,Element,<h3>,1
+docs/minihtml.html,Element,<h4>,1
+docs/minihtml.html,Element,<h5>,1
+docs/minihtml.html,Element,<h6>,1
+docs/minihtml.html,Element,<head>,1
+docs/minihtml.html,Element,<html>,1
+docs/minihtml.html,Element,<i>,1
+docs/minihtml.html,Element,<img>,1
+docs/minihtml.html,Element,<li>,2
+docs/minihtml.html,Element,<ol>,1
+docs/minihtml.html,Element,<p>,1
+docs/minihtml.html,Element,<small>,1
+docs/minihtml.html,Element,<strong>,1
+docs/minihtml.html,Element,<style>,1
+docs/minihtml.html,Element,<tt>,1
+docs/minihtml.html,Element,<u>,1
+docs/minihtml.html,Element,<ul>,2
+docs/minihtml.html,Element,<var>,1
+docs/minihtml.html,Function,a(),1
+docs/minihtml.html,Function,alpha(),1
+docs/minihtml.html,Function,blend(),1
+docs/minihtml.html,Function,blenda(),1
+docs/minihtml.html,Function,l(),1
+docs/minihtml.html,Function,lightness(),1
+docs/minihtml.html,Function,min-contrast(),1
+docs/minihtml.html,Function,s(),1
+docs/minihtml.html,Function,saturation(),1
+docs/minihtml.html,Guide,minihtml Reference,1
+docs/minihtml.html,Section,CSS,1
+docs/minihtml.html,Section,HTML,1
+docs/minihtml.html,Style,background-color,1
+docs/minihtml.html,Style,border,1
+docs/minihtml.html,Style,border-bottom,1
+docs/minihtml.html,Style,border-bottom-color,1
+docs/minihtml.html,Style,border-bottom-left-radius,1
+docs/minihtml.html,Style,border-bottom-right-radius,1
+docs/minihtml.html,Style,border-bottom-style,1
+docs/minihtml.html,Style,border-bottom-width,1
+docs/minihtml.html,Style,border-color,1
+docs/minihtml.html,Style,border-left,1
+docs/minihtml.html,Style,border-left-color,1
+docs/minihtml.html,Style,border-left-style,1
+docs/minihtml.html,Style,border-left-width,1
+docs/minihtml.html,Style,border-radius,1
+docs/minihtml.html,Style,border-right,1
+docs/minihtml.html,Style,border-right-color,1
+docs/minihtml.html,Style,border-right-style,1
+docs/minihtml.html,Style,border-right-width,1
+docs/minihtml.html,Style,border-style,1
+docs/minihtml.html,Style,border-top,1
+docs/minihtml.html,Style,border-top-color,1
+docs/minihtml.html,Style,border-top-left-radius,1
+docs/minihtml.html,Style,border-top-right-radius,1
+docs/minihtml.html,Style,border-top-style,1
+docs/minihtml.html,Style,border-top-width,1
+docs/minihtml.html,Style,border-width,1
+docs/minihtml.html,Style,bottom,1
+docs/minihtml.html,Style,color,1
+docs/minihtml.html,Style,display,1
+docs/minihtml.html,Style,font-family,1
+docs/minihtml.html,Style,font-size,1
+docs/minihtml.html,Style,font-style,1
+docs/minihtml.html,Style,font-weight,1
+docs/minihtml.html,Style,inline-block,1
+docs/minihtml.html,Style,left,1
+docs/minihtml.html,Style,line-height,1
+docs/minihtml.html,Style,list-style-type,1
+docs/minihtml.html,Style,margin,1
+docs/minihtml.html,Style,margin-bottom,1
+docs/minihtml.html,Style,margin-left,1
+docs/minihtml.html,Style,margin-right,1
+docs/minihtml.html,Style,margin-top,1
+docs/minihtml.html,Style,padding,1
+docs/minihtml.html,Style,padding-bottom,1
+docs/minihtml.html,Style,padding-left,1
+docs/minihtml.html,Style,padding-right,1
+docs/minihtml.html,Style,padding-top,1
+docs/minihtml.html,Style,position,1
+docs/minihtml.html,Style,pre,1
+docs/minihtml.html,Style,pre-wrap,1
+docs/minihtml.html,Style,right,1
+docs/minihtml.html,Style,text-align,1
+docs/minihtml.html,Style,text-decoration,1
+docs/minihtml.html,Style,top,1
+docs/minihtml.html,Style,white-space,1
+docs/minihtml.html,Variable,var(--accent),1
+docs/minihtml.html,Variable,var(--background),1
+docs/minihtml.html,Variable,var(--bluish),1
+docs/minihtml.html,Variable,var(--cyanish),1
+docs/minihtml.html,Variable,var(--foreground),1
+docs/minihtml.html,Variable,var(--greenish),1
+docs/minihtml.html,Variable,var(--orangish),1
+docs/minihtml.html,Variable,var(--pinkish),1
+docs/minihtml.html,Variable,var(--purplish),1
+docs/minihtml.html,Variable,var(--redish),1
+docs/minihtml.html,Variable,var(--yellowish),1
+docs/multiple_selection_with_the_keyboard.html,Guide,Multiple Selection with the Keyboard,1
+docs/multiple_selection_with_the_keyboard.html,Section,Adding a Line,1
+docs/multiple_selection_with_the_keyboard.html,Section,Find All,1
+docs/multiple_selection_with_the_keyboard.html,Section,Quick Add Next,1
+docs/multiple_selection_with_the_keyboard.html,Section,Single Selection,1
+docs/multiple_selection_with_the_keyboard.html,Section,Splitting the Selection into Lines,1
+docs/os_compatibility.html,Guide,Operating System Compatibility,1
+docs/os_compatibility.html,Section,Linux,1
+docs/os_compatibility.html,Section,Mac,1
+docs/os_compatibility.html,Section,Windows,1
+docs/packages.html,File,.sublime-package,3
+docs/packages.html,File,<data_path>/Installed Packages/,3
+docs/packages.html,File,<data_path>/Packages/,2
+docs/packages.html,File,<data_path>/Packages/Python/,1
+docs/packages.html,File,<executable_path>/Packages/,2
+docs/packages.html,File,<executable_path>/Packages/Python.sublime-package,1
+docs/packages.html,File,Default,3
+docs/packages.html,File,Main.sublime-menu,2
+docs/packages.html,File,Packages/<Package Name>/,1
+docs/packages.html,File,Python,2
+docs/packages.html,File,Python.sublime-package,1
+docs/packages.html,File,User,3
+docs/packages.html,File,function.sublime-snippet,2
+docs/packages.html,Guide,Packages,1
+docs/packages.html,Section,Creating a New Package,1
+docs/packages.html,Section,Locations,1
+docs/packages.html,Section,Overriding Files From a Zipped Package,1
+docs/packages.html,Section,Special Packages,1
+docs/portable_license_keys.html,File,%APPDATA%\Sublime Text 3\Local,1
+docs/portable_license_keys.html,File,%APPDATA%\Sublime Text\Local,1
+docs/portable_license_keys.html,File,License.sublime_license,1
+docs/portable_license_keys.html,File,~/.config/sublime-text-3/Local,1
+docs/portable_license_keys.html,File,~/.config/sublime-text/Local,1
+docs/portable_license_keys.html,File,~/Library/Application Support/Sublime Text 3/Local,1
+docs/portable_license_keys.html,File,~/Library/Application Support/Sublime Text/Local,1
+docs/portable_license_keys.html,Guide,Portable License Keys,1
+docs/portable_license_keys.html,Section,Steps,1
+docs/porting_guide.html,Guide,Plugin Porting Guide,1
+docs/porting_guide.html,Section,Asynchronous Events,1
+docs/porting_guide.html,Section,Importing Modules,1
+docs/porting_guide.html,Section,Out of Process Plugins,1
+docs/porting_guide.html,Section,Python 3.3,1
+docs/porting_guide.html,Section,Restricted API Usage at Startup,1
+docs/porting_guide.html,Section,Restricted begin_edit() and end_edit(),1
+docs/porting_guide.html,Section,Zipped Packages,1
+docs/previous_versions.html,Guide,Accessing Previous Versions,1
+docs/previous_versions.html,Section,Downloading specific versions,1
+docs/previous_versions.html,Section,How to access previous versions,1
+docs/previous_versions.html,Section,Support,1
+docs/projects.html,Guide,Projects,1
+docs/projects.html,Section,"""build_systems"" Key",1
+docs/projects.html,Section,"""folders"" Key",1
+docs/projects.html,Section,"""settings"" Key",1
+docs/projects.html,Section,Project Format,1
+docs/projects.html,Setting,file_exclude_patterns,1
+docs/projects.html,Setting,file_include_patterns,1
+docs/projects.html,Setting,folder_exclude_patterns,1
+docs/projects.html,Setting,folder_include_patterns,1
+docs/projects.html,Setting,follow_symlinks,1
+docs/projects.html,Setting,name,1
+docs/revert.html,File,%APPDATA%\Sublime Text,1
+docs/revert.html,File,%APPDATA%\Sublime Text 3,1
+docs/revert.html,File,%LOCALAPPDATA%\Sublime Text,1
+docs/revert.html,File,~/.cache/sublime-text,1
+docs/revert.html,File,~/.config/sublime-text,1
+docs/revert.html,File,~/.config/sublime-text-3,1
+docs/revert.html,File,~/Library/Application Support/Sublime Text,1
+docs/revert.html,File,~/Library/Application Support/Sublime Text 3,1
+docs/revert.html,File,~/Library/Caches/Sublime Text,1
+docs/revert.html,Guide,Reverting to a Freshly Installed State,1
+docs/revert.html,Section,Cache,1
+docs/revert.html,Section,Mac,1
+docs/safe_mode.html,Command,subl --safe-mode,1
+docs/safe_mode.html,File,%AppData%\Sublime Text (Safe Mode)\,1
+docs/safe_mode.html,File,~/.config/sublime-text-safe-mode/,1
+docs/safe_mode.html,File,~/Library/Application Support/Sublime Text (Safe Mode)/,1
+docs/safe_mode.html,Guide,Safe Mode,1
+docs/safe_mode.html,Section,Behavior,1
+docs/safe_mode.html,Section,Starting,1
+docs/scope_naming.html,Guide,Scope Naming,1
+docs/scope_naming.html,Section,Color Schemes,1
+docs/scope_naming.html,Section,Syntax Definitions,1
+docs/scope_naming.html,Tag,comment,1
+docs/scope_naming.html,Tag,comment.block,1
+docs/scope_naming.html,Tag,comment.block.documentation,1
+docs/scope_naming.html,Tag,comment.line,1
+docs/scope_naming.html,Tag,constant,1
+docs/scope_naming.html,Tag,constant.character.escape,2
+docs/scope_naming.html,Tag,constant.language,2
+docs/scope_naming.html,Tag,constant.numeric,2
+docs/scope_naming.html,Tag,constant.numeric.complex,1
+docs/scope_naming.html,Tag,constant.numeric.complex.imaginary,1
+docs/scope_naming.html,Tag,constant.numeric.complex.real,1
+docs/scope_naming.html,Tag,constant.numeric.float,1
+docs/scope_naming.html,Tag,constant.numeric.float.binary,1
+docs/scope_naming.html,Tag,constant.numeric.float.decimal,1
+docs/scope_naming.html,Tag,constant.numeric.float.hexadecimal,1
+docs/scope_naming.html,Tag,constant.numeric.float.octal,1
+docs/scope_naming.html,Tag,constant.numeric.float.other,1
+docs/scope_naming.html,Tag,constant.numeric.integer,1
+docs/scope_naming.html,Tag,constant.numeric.integer.binary,1
+docs/scope_naming.html,Tag,constant.numeric.integer.decimal,1
+docs/scope_naming.html,Tag,constant.numeric.integer.hexadecimal,1
+docs/scope_naming.html,Tag,constant.numeric.integer.octal,1
+docs/scope_naming.html,Tag,constant.numeric.integer.other,1
+docs/scope_naming.html,Tag,constant.other,1
+docs/scope_naming.html,Tag,constant.other.placeholder,1
+docs/scope_naming.html,Tag,entity.name,1
+docs/scope_naming.html,Tag,entity.name.class,1
+docs/scope_naming.html,Tag,entity.name.class.forward-decl,1
+docs/scope_naming.html,Tag,entity.name.constant,1
+docs/scope_naming.html,Tag,entity.name.enum,1
+docs/scope_naming.html,Tag,entity.name.function,1
+docs/scope_naming.html,Tag,entity.name.function.constructor,1
+docs/scope_naming.html,Tag,entity.name.function.destructor,1
+docs/scope_naming.html,Tag,entity.name.impl,1
+docs/scope_naming.html,Tag,entity.name.interface,1
+docs/scope_naming.html,Tag,entity.name.label,1
+docs/scope_naming.html,Tag,entity.name.namespace,1
+docs/scope_naming.html,Tag,entity.name.section,2
+docs/scope_naming.html,Tag,entity.name.struct,1
+docs/scope_naming.html,Tag,entity.name.tag,2
+docs/scope_naming.html,Tag,entity.name.trait,1
+docs/scope_naming.html,Tag,entity.name.type,1
+docs/scope_naming.html,Tag,entity.name.union,1
+docs/scope_naming.html,Tag,entity.other.attribute-name,2
+docs/scope_naming.html,Tag,entity.other.inherited-class,2
+docs/scope_naming.html,Tag,invalid,1
+docs/scope_naming.html,Tag,invalid.deprecated,2
+docs/scope_naming.html,Tag,invalid.illegal,1
+docs/scope_naming.html,Tag,keyword,1
+docs/scope_naming.html,Tag,keyword.control,2
+docs/scope_naming.html,Tag,keyword.control.conditional,1
+docs/scope_naming.html,Tag,keyword.control.import,1
+docs/scope_naming.html,Tag,keyword.declaration,1
+docs/scope_naming.html,Tag,keyword.operator,2
+docs/scope_naming.html,Tag,keyword.operator.arithmetic,1
+docs/scope_naming.html,Tag,keyword.operator.assignment,1
+docs/scope_naming.html,Tag,keyword.operator.bitwise,1
+docs/scope_naming.html,Tag,keyword.operator.logical,1
+docs/scope_naming.html,Tag,keyword.operator.word,1
+docs/scope_naming.html,Tag,keyword.other,1
+docs/scope_naming.html,Tag,markup.bold,1
+docs/scope_naming.html,Tag,markup.deleted,1
+docs/scope_naming.html,Tag,markup.heading,1
+docs/scope_naming.html,Tag,markup.inserted,1
+docs/scope_naming.html,Tag,markup.italic,1
+docs/scope_naming.html,Tag,markup.list.numbered,1
+docs/scope_naming.html,Tag,markup.list.unnumbered,1
+docs/scope_naming.html,Tag,markup.other,1
+docs/scope_naming.html,Tag,markup.quote,1
+docs/scope_naming.html,Tag,markup.raw.block,1
+docs/scope_naming.html,Tag,markup.raw.inline,1
+docs/scope_naming.html,Tag,markup.underline,1
+docs/scope_naming.html,Tag,markup.underline.link,1
+docs/scope_naming.html,Tag,meta.annotation,1
+docs/scope_naming.html,Tag,meta.annotation.identifier,1
+docs/scope_naming.html,Tag,meta.annotation.parameters,1
+docs/scope_naming.html,Tag,meta.block,1
+docs/scope_naming.html,Tag,meta.braces,1
+docs/scope_naming.html,Tag,meta.brackets,1
+docs/scope_naming.html,Tag,meta.class,1
+docs/scope_naming.html,Tag,meta.enum,1
+docs/scope_naming.html,Tag,meta.function,1
+docs/scope_naming.html,Tag,meta.function-call,1
+docs/scope_naming.html,Tag,meta.function.parameters,1
+docs/scope_naming.html,Tag,meta.function.return-type,1
+docs/scope_naming.html,Tag,meta.generic,1
+docs/scope_naming.html,Tag,meta.group,1
+docs/scope_naming.html,Tag,meta.impl,1
+docs/scope_naming.html,Tag,meta.interface,1
+docs/scope_naming.html,Tag,meta.interpolation,1
+docs/scope_naming.html,Tag,meta.namespace,1
+docs/scope_naming.html,Tag,meta.paragraph,1
+docs/scope_naming.html,Tag,meta.parens,1
+docs/scope_naming.html,Tag,meta.path,1
+docs/scope_naming.html,Tag,meta.preprocessor,1
+docs/scope_naming.html,Tag,meta.string,1
+docs/scope_naming.html,Tag,meta.struct,1
+docs/scope_naming.html,Tag,meta.tag,1
+docs/scope_naming.html,Tag,meta.toc-list,1
+docs/scope_naming.html,Tag,meta.trait,1
+docs/scope_naming.html,Tag,meta.type,1
+docs/scope_naming.html,Tag,meta.union,1
+docs/scope_naming.html,Tag,punctuation.accessor,1
+docs/scope_naming.html,Tag,punctuation.definition.annotation,2
+docs/scope_naming.html,Tag,punctuation.definition.comment,1
+docs/scope_naming.html,Tag,punctuation.definition.generic.begin,1
+docs/scope_naming.html,Tag,punctuation.definition.generic.end,1
+docs/scope_naming.html,Tag,punctuation.definition.keyword,1
+docs/scope_naming.html,Tag,punctuation.definition.string.begin,1
+docs/scope_naming.html,Tag,punctuation.definition.string.end,1
+docs/scope_naming.html,Tag,punctuation.definition.variable,1
+docs/scope_naming.html,Tag,punctuation.section.block.begin,1
+docs/scope_naming.html,Tag,punctuation.section.block.end,1
+docs/scope_naming.html,Tag,punctuation.section.braces.begin,1
+docs/scope_naming.html,Tag,punctuation.section.braces.end,1
+docs/scope_naming.html,Tag,punctuation.section.brackets.begin,1
+docs/scope_naming.html,Tag,punctuation.section.brackets.end,1
+docs/scope_naming.html,Tag,punctuation.section.group.begin,1
+docs/scope_naming.html,Tag,punctuation.section.group.end,1
+docs/scope_naming.html,Tag,punctuation.section.interpolation.begin,1
+docs/scope_naming.html,Tag,punctuation.section.interpolation.end,1
+docs/scope_naming.html,Tag,punctuation.section.parens.begin,1
+docs/scope_naming.html,Tag,punctuation.section.parens.end,1
+docs/scope_naming.html,Tag,punctuation.separator,1
+docs/scope_naming.html,Tag,punctuation.separator.continuation,1
+docs/scope_naming.html,Tag,punctuation.terminator,1
+docs/scope_naming.html,Tag,source,1
+docs/scope_naming.html,Tag,source.*language-suffix*.embedded,1
+docs/scope_naming.html,Tag,storage.modifier,2
+docs/scope_naming.html,Tag,storage.type,2
+docs/scope_naming.html,Tag,storage.type keyword.declaration.type,1
+docs/scope_naming.html,Tag,storage.type.class keyword.declaration.class,1
+docs/scope_naming.html,Tag,storage.type.enum keyword.declaration.enum,1
+docs/scope_naming.html,Tag,storage.type.function keyword.declaration.function,1
+docs/scope_naming.html,Tag,storage.type.impl keyword.declaration.impl,1
+docs/scope_naming.html,Tag,storage.type.interface keyword.declaration.interface,1
+docs/scope_naming.html,Tag,storage.type.struct keyword.declaration.struct,1
+docs/scope_naming.html,Tag,storage.type.trait keyword.declaration.trait,1
+docs/scope_naming.html,Tag,storage.type.union keyword.declaration.union,1
+docs/scope_naming.html,Tag,string,1
+docs/scope_naming.html,Tag,string.quoted.double,1
+docs/scope_naming.html,Tag,string.quoted.other,1
+docs/scope_naming.html,Tag,string.quoted.single,1
+docs/scope_naming.html,Tag,string.quoted.triple,1
+docs/scope_naming.html,Tag,string.regexp,1
+docs/scope_naming.html,Tag,string.unquoted,1
+docs/scope_naming.html,Tag,support,1
+docs/scope_naming.html,Tag,support.class,1
+docs/scope_naming.html,Tag,support.constant,1
+docs/scope_naming.html,Tag,support.function,1
+docs/scope_naming.html,Tag,support.module,1
+docs/scope_naming.html,Tag,support.type,1
+docs/scope_naming.html,Tag,text.html,1
+docs/scope_naming.html,Tag,text.xml,1
+docs/scope_naming.html,Tag,variable,1
+docs/scope_naming.html,Tag,variable.annotation,1
+docs/scope_naming.html,Tag,variable.function,2
+docs/scope_naming.html,Tag,variable.language,2
+docs/scope_naming.html,Tag,variable.other,1
+docs/scope_naming.html,Tag,variable.other.constant,1
+docs/scope_naming.html,Tag,variable.other.member,1
+docs/scope_naming.html,Tag,variable.other.readwrite,1
+docs/scope_naming.html,Tag,variable.parameter,2
+docs/selectors.html,Guide,Selectors,1
+docs/selectors.html,Section,Basic Matching,1
+docs/selectors.html,Section,Logical Operators,1
+docs/settings.html,File,<Buffer-specific settings>,1
+docs/settings.html,File,<Project settings>,1
+docs/settings.html,File,Packages/<syntax>/<syntax>.sublime-settings,1
+docs/settings.html,File,Packages/Default/Preferences (<platform>).sublime-settings,1
+docs/settings.html,File,Packages/Default/Preferences.sublime-settings,1
+docs/settings.html,File,Packages/User/<syntax>.sublime-settings,1
+docs/settings.html,File,Packages/User/Preferences.sublime-settings,1
+docs/settings.html,Guide,Settings,1
+docs/settings.html,Section,Categories,1
+docs/settings.html,Section,Changing Settings with a Key Binding,1
+docs/settings.html,Section,Distraction Free Settings,1
+docs/settings.html,Section,Project Settings,1
+docs/settings.html,Section,Settings Files,1
+docs/settings.html,Section,Syntax-Specific Settings,1
+docs/settings.html,Section,Troubleshooting,1
+docs/side_by_side.html,Guide,Running 3 and 4 Side by Side,1
+docs/side_by_side.html,Section,Mac,1
+docs/spell_checking.html,Command,add_word,1
+docs/spell_checking.html,Command,ignore_word,1
+docs/spell_checking.html,Command,next_misspelling,1
+docs/spell_checking.html,Command,prev_misspelling,1
+docs/spell_checking.html,Guide,Spell Checking,1
+docs/spell_checking.html,Section,Commands,1
+docs/spell_checking.html,Section,Dictionaries,1
+docs/spell_checking.html,Section,Settings,1
+docs/spell_checking.html,Setting,added_words,1
+docs/spell_checking.html,Setting,dictionary,1
+docs/spell_checking.html,Setting,ignored_words,1
+docs/spell_checking.html,Setting,spell_check,1
+docs/syntax.html,Guide,Syntax Definitions,1
+docs/syntax.html,Instruction,branch_point,1
+docs/syntax.html,Instruction,captures,1
+docs/syntax.html,Instruction,clear_scopes,1
+docs/syntax.html,Instruction,embed_scope,1
+docs/syntax.html,Instruction,escape,1
+docs/syntax.html,Instruction,escape_captures,1
+docs/syntax.html,Instruction,match,1
+docs/syntax.html,Instruction,meta_content_scope,1
+docs/syntax.html,Instruction,meta_include_prototype,1
+docs/syntax.html,Instruction,meta_scope,1
+docs/syntax.html,Instruction,pop,1
+docs/syntax.html,Instruction,push,1
+docs/syntax.html,Instruction,scope,1
+docs/syntax.html,Instruction,set,1
+docs/syntax.html,Section,Compatibility,1
+docs/syntax.html,Section,Contexts,1
+docs/syntax.html,Section,Header,1
+docs/syntax.html,Section,Including Other Files,1
+docs/syntax.html,Section,Inheritance,1
+docs/syntax.html,Section,Overview,1
+docs/syntax.html,Section,Selected Examples,1
+docs/syntax.html,Section,Testing,1
+docs/syntax.html,Section,Variables,1
+docs/syntax.html,Test,<-,1
+docs/syntax.html,Test,"<comment_token> SYNTAX TEST ""<syntax_file>""",1
+docs/syntax.html,Test,@,1
+docs/syntax.html,Test,^,1
+docs/syntax.html,Test,definition,1
+docs/syntax.html,Test,global-definition,1
+docs/syntax.html,Test,local-definition,1
+docs/syntax.html,Test,none,1
+docs/syntax.html,Test,partial-symbols,2
+docs/syntax.html,Test,reference,1
+docs/syntax.html,Test,reindent,1
+docs/syntax.html,Test,reindent-unchanged,1
+docs/syntax.html,Test,reindent-unindented,1
+docs/syntax.html,Trait,file_extensions,1
+docs/syntax.html,Trait,first_line_match,1
+docs/syntax.html,Trait,hidden,1
+docs/syntax.html,Trait,name,1
+docs/syntax.html,Trait,scope,1
+docs/tab_multi-select.html,Guide,Tab Multi-Select,1
+docs/tab_multi-select.html,Section,Basics,1
+docs/tab_multi-select.html,Section,Goto File,1
+docs/tab_multi-select.html,Section,Plugins,1
+docs/tab_multi-select.html,Section,Switch Header/Implementation,1
+docs/tab_multi-select.html,Section,Symbol Navigation,1
+docs/themes.html,Element,auto_complete,1
+docs/themes.html,Element,auto_complete_label,1
+docs/themes.html,Element,button_control,1
+docs/themes.html,Element,close_button,1
+docs/themes.html,Element,dialog,1
+docs/themes.html,Element,disclosure_button_control,1
+docs/themes.html,Element,dropdown_button_control,1
+docs/themes.html,Element,edit_window,1
+docs/themes.html,Element,fold_button_control,1
+docs/themes.html,Element,grid_layout_control,1
+docs/themes.html,Element,icon_button_control,1
+docs/themes.html,Element,icon_button_group,1
+docs/themes.html,Element,icon_case,1
+docs/themes.html,Element,icon_context,1
+docs/themes.html,Element,icon_file_type,1
+docs/themes.html,Element,icon_folder,1
+docs/themes.html,Element,icon_folder_dup,1
+docs/themes.html,Element,icon_folder_loading,1
+docs/themes.html,Element,icon_highlight,1
+docs/themes.html,Element,icon_in_selection,1
+docs/themes.html,Element,icon_preserve_case,1
+docs/themes.html,Element,icon_regex,1
+docs/themes.html,Element,icon_use_buffer,1
+docs/themes.html,Element,icon_whole_word,1
+docs/themes.html,Element,icon_wrap,1
+docs/themes.html,Element,label_control,1
+docs/themes.html,Element,mini_quick_panel_row,1
+docs/themes.html,Element,minimap_control,1
+docs/themes.html,Element,overlay_control,1
+docs/themes.html,Element,panel_close_button,1
+docs/themes.html,Element,panel_control console_panel,1
+docs/themes.html,Element,panel_control find_in_files_panel,1
+docs/themes.html,Element,panel_control find_panel,1
+docs/themes.html,Element,panel_control input_panel,1
+docs/themes.html,Element,panel_control output_panel,1
+docs/themes.html,Element,panel_control output_panel io_panel,1
+docs/themes.html,Element,panel_control replace_panel,1
+docs/themes.html,Element,panel_control switch_project_panel,1
+docs/themes.html,Element,panel_grid_control,1
+docs/themes.html,Element,popup_control auto_complete_popup,1
+docs/themes.html,Element,popup_control html_popup,1
+docs/themes.html,Element,progress_bar_control,1
+docs/themes.html,Element,progress_gauge_control,1
+docs/themes.html,Element,puck_control,1
+docs/themes.html,Element,quick_panel,1
+docs/themes.html,Element,quick_panel_label,1
+docs/themes.html,Element,quick_panel_path_label,1
+docs/themes.html,Element,quick_panel_row,1
+docs/themes.html,Element,scroll_area_control,1
+docs/themes.html,Element,scroll_bar_control,1
+docs/themes.html,Element,scroll_corner_control,1
+docs/themes.html,Element,scroll_tabs_left_button,1
+docs/themes.html,Element,scroll_tabs_right_button,1
+docs/themes.html,Element,scroll_track_control,1
+docs/themes.html,Element,show_tabs_dropdown_button,1
+docs/themes.html,Element,sidebar_container,1
+docs/themes.html,Element,sidebar_heading,1
+docs/themes.html,Element,sidebar_label,1
+docs/themes.html,Element,sidebar_tree,1
+docs/themes.html,Element,status_bar,1
+docs/themes.html,Element,status_button,1
+docs/themes.html,Element,status_container,1
+docs/themes.html,Element,switch_project_window,1
+docs/themes.html,Element,tab_close_button,1
+docs/themes.html,Element,tab_control,1
+docs/themes.html,Element,tab_label,1
+docs/themes.html,Element,table_row,1
+docs/themes.html,Element,tabset_control,1
+docs/themes.html,Element,text_area_control,1
+docs/themes.html,Element,text_line_control,1
+docs/themes.html,Element,title_bar,1
+docs/themes.html,Element,title_label_control,1
+docs/themes.html,Element,tool_tip_control,1
+docs/themes.html,Element,tool_tip_label_control,1
+docs/themes.html,Element,tree_row,1
+docs/themes.html,Element,window,1
+docs/themes.html,Guide,Themes,1
+docs/themes.html,Property,accent_tint_index,2
+docs/themes.html,Property,accent_tint_modifier,2
+docs/themes.html,Property,added,4
+docs/themes.html,Property,background_color,1
+docs/themes.html,Property,background_modifier,1
+docs/themes.html,Property,bg,3
+docs/themes.html,Property,border_color,2
+docs/themes.html,Property,border_size,1
+docs/themes.html,Property,bottom_shadow,1
+docs/themes.html,Property,bottom_shadow_size,1
+docs/themes.html,Property,case,1
+docs/themes.html,Property,color,3
+docs/themes.html,Property,color_scheme_tint,1
+docs/themes.html,Property,color_scheme_tint_2,1
+docs/themes.html,Property,content_margin,55
+docs/themes.html,Property,dark,4
+docs/themes.html,Property,dark_content,1
+docs/themes.html,Property,deleted,4
+docs/themes.html,Property,dirty,2
+docs/themes.html,Property,disabled,1
+docs/themes.html,Property,expandable,1
+docs/themes.html,Property,expanded,2
+docs/themes.html,Property,fg,2
+docs/themes.html,Property,fg_blend,2
+docs/themes.html,Property,font.bold,1
+docs/themes.html,Property,font.face,3
+docs/themes.html,Property,font.italic,1
+docs/themes.html,Property,font.size,3
+docs/themes.html,Property,frame_time,1
+docs/themes.html,Property,highlighted,2
+docs/themes.html,Property,hit_test_level,1
+docs/themes.html,Property,horizontal,3
+docs/themes.html,Property,hscrollable,1
+docs/themes.html,Property,ignored,2
+docs/themes.html,Property,indent,1
+docs/themes.html,Property,indent_offset,1
+docs/themes.html,Property,indent_top_level,1
+docs/themes.html,Property,inside_spacing,1
+docs/themes.html,Property,interpolation,1
+docs/themes.html,Property,keyframes,1
+docs/themes.html,Property,kind_container kind_ambiguous,2
+docs/themes.html,Property,kind_container kind_color_bluish,1
+docs/themes.html,Property,kind_container kind_color_cyanish,1
+docs/themes.html,Property,kind_container kind_color_dark,1
+docs/themes.html,Property,kind_container kind_color_greenish,1
+docs/themes.html,Property,kind_container kind_color_light,1
+docs/themes.html,Property,kind_container kind_color_orangish,1
+docs/themes.html,Property,kind_container kind_color_pinkish,1
+docs/themes.html,Property,kind_container kind_color_purplish,1
+docs/themes.html,Property,kind_container kind_color_redish,1
+docs/themes.html,Property,kind_container kind_color_yellowish,1
+docs/themes.html,Property,kind_container kind_function,2
+docs/themes.html,Property,kind_container kind_keyword,2
+docs/themes.html,Property,kind_container kind_markup,2
+docs/themes.html,Property,kind_container kind_namespace,2
+docs/themes.html,Property,kind_container kind_navigation,2
+docs/themes.html,Property,kind_container kind_snippet,2
+docs/themes.html,Property,kind_container kind_type,2
+docs/themes.html,Property,kind_container kind_variable,2
+docs/themes.html,Property,layer#.draw_center,1
+docs/themes.html,Property,layer#.inner_margin,1
+docs/themes.html,Property,layer#.opacity,1
+docs/themes.html,Property,layer#.repeat,1
+docs/themes.html,Property,layer#.texture,1
+docs/themes.html,Property,layer#.tint,1
+docs/themes.html,Property,layer0.*,1
+docs/themes.html,Property,layer1.*,1
+docs/themes.html,Property,layer2.*,1
+docs/themes.html,Property,layer3.*,1
+docs/themes.html,Property,left,2
+docs/themes.html,Property,left_of_hover,1
+docs/themes.html,Property,left_of_selected,1
+docs/themes.html,Property,left_overhang,2
+docs/themes.html,Property,left_shadow,1
+docs/themes.html,Property,left_shadow_size,1
+docs/themes.html,Property,link_color,2
+docs/themes.html,Property,loop,1
+docs/themes.html,Property,match_fg,1
+docs/themes.html,Property,max_margin_trim,1
+docs/themes.html,Property,min_size,2
+docs/themes.html,Property,missing,2
+docs/themes.html,Property,modified,4
+docs/themes.html,Property,monospace_background_color,2
+docs/themes.html,Property,monospace_color,2
+docs/themes.html,Property,mouse_wheel_switch,1
+docs/themes.html,Property,multiple,1
+docs/themes.html,Property,outside_hspacing,1
+docs/themes.html,Property,outside_vspacing,1
+docs/themes.html,Property,overlay,1
+docs/themes.html,Property,overlay_control command_palette,1
+docs/themes.html,Property,overlay_control goto_file,1
+docs/themes.html,Property,overlay_control goto_line,1
+docs/themes.html,Property,overlay_control goto_symbol,1
+docs/themes.html,Property,overlay_control goto_symbol_in_project,1
+docs/themes.html,Property,overlay_control goto_word,1
+docs/themes.html,Property,panel_visible,1
+docs/themes.html,Property,pressed,1
+docs/themes.html,Property,right,2
+docs/themes.html,Property,right_of_hover,1
+docs/themes.html,Property,right_of_selected,1
+docs/themes.html,Property,right_overhang,2
+docs/themes.html,Property,right_shadow,1
+docs/themes.html,Property,right_shadow_size,1
+docs/themes.html,Property,row_padding,1
+docs/themes.html,Property,scrollable,1
+docs/themes.html,Property,selectable,1
+docs/themes.html,Property,selected,6
+docs/themes.html,Property,selected_fg,1
+docs/themes.html,Property,selected_match_fg,1
+docs/themes.html,Property,shadow_color,1
+docs/themes.html,Property,shadow_offset,1
+docs/themes.html,Property,spacer_rows,1
+docs/themes.html,Property,spacing,5
+docs/themes.html,Property,speed,1
+docs/themes.html,Property,staged,2
+docs/themes.html,Property,style,1
+docs/themes.html,Property,tab_height,1
+docs/themes.html,Property,tab_min_width,1
+docs/themes.html,Property,tab_overlap,1
+docs/themes.html,Property,tab_width,1
+docs/themes.html,Property,target,1
+docs/themes.html,Property,tint_index,1
+docs/themes.html,Property,tint_modifier,1
+docs/themes.html,Property,top_shadow,1
+docs/themes.html,Property,top_shadow_size,1
+docs/themes.html,Property,transient,2
+docs/themes.html,Property,unmerged,2
+docs/themes.html,Property,untracked,2
+docs/themes.html,Property,viewport_color,1
+docs/themes.html,Property,viewport_opacity,1
+docs/themes.html,Section,Attributes,1
+docs/themes.html,Section,Colors,1
+docs/themes.html,Section,Customization,1
+docs/themes.html,Section,Deprecated,1
+docs/themes.html,Section,Elements,1
+docs/themes.html,Section,File Type Icons,1
+docs/themes.html,Section,Font Sizes,1
+docs/themes.html,Section,Format,1
+docs/themes.html,Section,General Information,1
+docs/themes.html,Section,Inheritance,1
+docs/themes.html,Section,Obsolete,1
+docs/themes.html,Section,Properties,1
+docs/themes.html,Section,Settings,1
+docs/themes.html,Section,Terminology,1
+docs/themes.html,Section,Variables,1
+docs/themes.html,Setting,always_show_minimap_viewport,1
+docs/themes.html,Setting,bold_folder_labels,1
+docs/themes.html,Setting,highlight_modified_tabs,1
+docs/themes.html,Setting,mouse_wheel_switches_tabs,1
+docs/themes.html,Setting,overlay_scroll_bars,1
+docs/themes.html,Setting,show_tab_close_buttons,1
+docs/vintage.html,Guide,Vintage Mode,1
+docs/vintage.html,Section,Ctrl Keys,1
+docs/vintage.html,Section,Enabling Vintage,1
+docs/vintage.html,Section,Ex Mode,1
+docs/vintage.html,Section,Mac,1
+docs/vintage.html,Section,Under the Hood,1
+docs/vintage.html,Section,What’s Included,1
+docs/vintage.html,Section,What’s Not,1
