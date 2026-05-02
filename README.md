@@ -21,7 +21,7 @@ to search for "Sublime" and install the community-org maintained ones.
 #### Zeal
 
 Zeal currently mixes user contributed docsets in with the main ones.
-Go to *Tools* > *Docsets&hellip;* > *Avalailable*
+Go to *Tools* > *Docsets&hellip;* > *Available*
 to search for "Sublime" and install the community-org maintained ones.
 
 #### Third-party feed
