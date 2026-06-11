@@ -36,9 +36,9 @@ jobs:
           path: out/sublime-*.docset
           if-no-files-found: error
 
-      # Do this at the end to upload the zip anyway.
+      # Do this at the end to upload the zip even if we fail
       - name: Check for dirty DB dump
         run: |
           git status
-          git diff-files         -- resources/*.csv
-          git diff-files --quiet -- resources/*.csv
+          git diff
+          git diff-files --quiet
