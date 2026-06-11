@@ -38,4 +38,6 @@ jobs:
 
       # Do this at the end to upload the zip anyway.
       - name: Check for dirty DB dump
-        run: git diff-files --quiet -- resources/*.csv
+        run: |
+          git diff-files         -- resources/*.csv
+          git diff-files --quiet -- resources/*.csv
