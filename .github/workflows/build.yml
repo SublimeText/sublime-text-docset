@@ -27,8 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build the docsets
-        run: |
-          make
+        run: make
 
       - name: Upload the docsets
         uses: actions/upload-artifact@v7
@@ -36,3 +35,7 @@ jobs:
           name: docset-bundle
           path: out/sublime-*.docset
           if-no-files-found: error
+
+      # Do this at the end to upload the zip anyway.
+      - name: Check for dirty DB dump
+        run: git diff-files --quiet -- resources/*.csv
